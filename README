@@ -1,0 +1,45 @@
+#=====================================
+# LearnReactions package
+# Authors: Lee-Ping Wang, Robert McGibbon, Leah Isseroff Bendavid,
+# Alexey Titov, Todd J. Martinez
+#=====================================
+
+This is a script and module to identify reaction events in reactive
+MD (nanoreactor) simulations.
+
+#=====================================
+# Installation
+#=====================================
+
+From a clean miniconda distribution, the following commands should
+lead to a working package:
+
+conda create -n learxn python=2.7
+source activate learxn
+conda install scikit-learn=0.14.1
+conda install networkx
+conda install libgfortran=1.0
+
+#=====================================
+# Usage
+#=====================================
+
+To analyze a simulation trajectory, run:
+
+LearnReactions.py traj.xyz
+
+Use the "-h" argument to get help.  It will generate reaction_123.xyz
+files that contain your chemical reactions, as well as bonds.dat,
+color.dat, charge.dat and spin.dat used to highlight your reactive MD
+trajectory.
+
+To view the highlighted trajectory, you need to install VMD.
+Make sure reactions.vmd is in the same folder and run using
+
+vmd -e reactions.vmd -args coors.xyz
+
+#=====================================
+# License
+#=====================================
+
+License: This software uses the BSD license.  See LICENSE.

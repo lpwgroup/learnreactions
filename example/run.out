@@ -1,0 +1,1606 @@
+
+ #=========================================#
+ #       Reactive MD learning script       #
+ #  Use the -h argument for detailed help  #
+ #=========================================#
+
+Loading molecule ... Done
+[] is disallowed
+Building graphs...
+Frame 0      : Frame 1      : Frame 2      : Frame 3      : Frame 4      : Frame 5      : Frame 6      : Frame 7      : Frame 8      : Frame 9      : Frame 10     : Frame 11     : Frame 12     : Frame 13     : Frame 14     : Frame 15     : Frame 16     : Frame 17     : Frame 18     : Frame 19     : Frame 20     : Frame 21     : Frame 22     : Frame 23     : Frame 24     : Frame 25     : Frame 26     : Frame 27     : Frame 28     : Frame 29     : Frame 30     : Frame 31     : Frame 32     : Frame 33     : Frame 34     : Frame 35     : Frame 36     : Frame 37     : Frame 38     : Frame 39     : Frame 40     : Frame 41     : Frame 42     : Frame 43     : Frame 44     : Frame 45     : Frame 46     : Frame 47     : Frame 48     : Frame 49     : Locking  gid 0,1:0 - its timeseries is [[50, 1]]
+Locking  gid 2,3,4,5,6:1 - its timeseries is [[50, 1]]
+Locking  gid 7,8,9,10:2 - its timeseries is [[50, 1]]
+Locking  gid 11,12:3 - its timeseries is [[50, 1]]
+Locking  gid 13,14,15:4 - its timeseries is [[50, 1]]
+Locking  gid 16,17,18,19,20:1 - its timeseries is [[50, 1]]
+Locking  gid 21,22,23:4 - its timeseries is [[50, 1]]
+Locking  gid 24,25,26,27:2 - its timeseries is [[50, 1]]
+Locking  gid 28,29:3 - its timeseries is [[50, 1]]
+Locking  gid 30,32,34,67,68,69,107:5 - its timeseries is [[50, 1]]
+Locking  gid 31,140:0 - its timeseries is [[50, 1]]
+Locking  gid 33,217:0 - its timeseries is [[50, 1]]
+Locking  gid 35,36,37:4 - its timeseries is [[50, 1]]
+Locking  gid 38,39,40,41:2 - its timeseries is [[50, 1]]
+Locking  gid 42,43:3 - its timeseries is [[50, 1]]
+Locking  gid 44,45,46,47,48:1 - its timeseries is [[50, 1]]
+Locking  gid 49,50,51:4 - its timeseries is [[50, 1]]
+Locking  gid 52,53,54,77,84,85:6 - its timeseries is [[50, 1]]
+Locking  gid 55,160:0 - its timeseries is [[50, 1]]
+Locking  gid 56,57:3 - its timeseries is [[50, 1]]
+Locking  gid 58,59,60,61,62:1 - its timeseries is [[50, 1]]
+Locking  gid 63,64,65:4 - its timeseries is [[50, 1]]
+Locking  gid 66,91,92:4 - its timeseries is [[50, 1]]
+Locking  gid 70,71:3 - its timeseries is [[50, 1]]
+Locking  gid 72,73,74,75,76:1 - its timeseries is [[50, 1]]
+Locking  gid 78,79,227:4 - its timeseries is [[50, 1]]
+Locking  gid 80,181:0 - its timeseries is [[50, 1]]
+Locking  gid 81,82,83,141:2 - its timeseries is [[50, 1]]
+Locking  gid 86,87,88,89,90:1 - its timeseries is [[50, 1]]
+Locking  gid 93,105,106:4 - its timeseries is [[50, 1]]
+Locking  gid 94,95,97,156:2 - its timeseries is [[50, 1]]
+Locking  gid 96,157:0 - its timeseries is [[50, 1]]
+Locking  gid 98,99:3 - its timeseries is [[50, 1]]
+Locking  gid 100,101,102,103,104:1 - its timeseries is [[50, 1]]
+Locking  gid 108,109,110,111:2 - its timeseries is [[50, 1]]
+Locking  gid 112,113:3 - its timeseries is [[50, 1]]
+Locking  gid 114,115:0 - its timeseries is [[50, 1]]
+Locking  gid 116,117:0 - its timeseries is [[50, 1]]
+Locking  gid 118,154:0 - its timeseries is [[50, 1]]
+Locking  gid 119,193:0 - its timeseries is [[50, 1]]
+Locking  gid 120,121:0 - its timeseries is [[50, 1]]
+Locking  gid 122,123:0 - its timeseries is [[50, 1]]
+Locking  gid 124,125:0 - its timeseries is [[50, 1]]
+Locking  gid 126,127:0 - its timeseries is [[50, 1]]
+Locking  gid 128,129:0 - its timeseries is [[50, 1]]
+Locking  gid 130,131:0 - its timeseries is [[50, 1]]
+Locking  gid 132,133:0 - its timeseries is [[50, 1]]
+Locking  gid 134,135:0 - its timeseries is [[50, 1]]
+Locking  gid 136,137:0 - its timeseries is [[50, 1]]
+Locking  gid 138,226:0 - its timeseries is [[50, 1]]
+Locking  gid 139,178:0 - its timeseries is [[50, 1]]
+Locking  gid 142,143:0 - its timeseries is [[50, 1]]
+Locking  gid 144,145:0 - its timeseries is [[50, 1]]
+Locking  gid 146,147:0 - its timeseries is [[50, 1]]
+Locking  gid 148,192:0 - its timeseries is [[50, 1]]
+Locking  gid 149,203:0 - its timeseries is [[50, 1]]
+Locking  gid 150,151:0 - its timeseries is [[50, 1]]
+Locking  gid 152,153:0 - its timeseries is [[50, 1]]
+Locking  gid 155,161:0 - its timeseries is [[50, 1]]
+Locking  gid 158,159:0 - its timeseries is [[50, 1]]
+Locking  gid 162,163:0 - its timeseries is [[50, 1]]
+Locking  gid 164,165:0 - its timeseries is [[50, 1]]
+Locking  gid 166,167:0 - its timeseries is [[50, 1]]
+Locking  gid 168,169:0 - its timeseries is [[50, 1]]
+Locking  gid 170,171:0 - its timeseries is [[50, 1]]
+Locking  gid 172,173:0 - its timeseries is [[50, 1]]
+Locking  gid 174,175:0 - its timeseries is [[50, 1]]
+Locking  gid 176,177:0 - its timeseries is [[50, 1]]
+Locking  gid 179,202:0 - its timeseries is [[50, 1]]
+Locking  gid 180,222:0 - its timeseries is [[50, 1]]
+Locking  gid 182,183:0 - its timeseries is [[50, 1]]
+Locking  gid 184,185:0 - its timeseries is [[50, 1]]
+Locking  gid 186,187:0 - its timeseries is [[50, 1]]
+Locking  gid 188,189:0 - its timeseries is [[50, 1]]
+Locking  gid 190,191:0 - its timeseries is [[50, 1]]
+Locking  gid 194,195:0 - its timeseries is [[50, 1]]
+Locking  gid 196,197:0 - its timeseries is [[50, 1]]
+Locking  gid 198,199:0 - its timeseries is [[50, 1]]
+Locking  gid 200,201:0 - its timeseries is [[50, 1]]
+Locking  gid 204,205:0 - its timeseries is [[50, 1]]
+Locking  gid 206,207:0 - its timeseries is [[50, 1]]
+Locking  gid 208,209:0 - its timeseries is [[50, 1]]
+Locking  gid 210,211:0 - its timeseries is [[50, 1]]
+Locking  gid 212,213:0 - its timeseries is [[50, 1]]
+Locking  gid 214,215:0 - its timeseries is [[50, 1]]
+Locking  gid 216,223:0 - its timeseries is [[50, 1]]
+Locking  gid 218,219:0 - its timeseries is [[50, 1]]
+Locking  gid 220,221:0 - its timeseries is [[50, 1]]
+Locking  gid 224,225:0 - its timeseries is [[50, 1]]
+Frame 50     : Frame 51     : Frame 52     : Frame 53     : Frame 54     : Frame 55     : Frame 56     : Frame 57     : Frame 58     : Frame 59     : Frame 60     : Frame 61     : Frame 62     : Frame 63     : Frame 64     : Frame 65     : Frame 66     : Frame 67     : Frame 68     : Frame 69     : Frame 70     : Frame 71     : Frame 72     : Frame 73     : Frame 74     : Frame 75     : Frame 76     : Frame 77     : Frame 78     : Frame 79     : Frame 80     : Frame 81     : Frame 82     : Frame 83     : Frame 84     : Frame 85     : Frame 86     : Frame 87     : Frame 88     : Frame 89     : Frame 90     : Frame 91     : Frame 92     : Frame 93     : Frame 94     : Frame 95     : Frame 96     : Frame 97     : Frame 98     : Frame 99     : Frame 100    : Frame 101    : Frame 102    : Frame 103    : Frame 104    : Frame 105    : Frame 106    : Frame 107    : Frame 108    : Frame 109    : Frame 110    : Frame 111    : Frame 112    : Frame 113    : Frame 114    : Frame 115    : Frame 116    : Frame 117    : Frame 118    : Frame 119    : Frame 120    : Frame 121    : Frame 122    : Frame 123    : Frame 124    : Frame 125    : Frame 126    : Frame 127    : Frame 128    : Frame 129    : Frame 130    : Frame 131    : Frame 132    : Frame 133    : Frame 134    : Frame 135    : Frame 136    : Deleting graph from isomer index
+Deleting gid 44,45,46,47,48,81,82,83,141:7 - its timeseries is [[80, 0], [7, 1], [50, 0]]
+Frame 137    : Deleting graph from isomer index
+Deleting gid 44,45,46,47,48,81,82,83,141:8 - its timeseries is [[87, 0], [1, 1], [50, 0]]
+Frame 138    : Frame 139    : Frame 140    : Frame 141    : Deleting graph from isomer index
+Deleting gid 44,45,46,47,48,81,82,83,141:9 - its timeseries is [[88, 0], [4, 1], [50, 0]]
+Frame 142    : Frame 143    : Frame 144    : Frame 145    : Frame 146    : Frame 147    : Frame 148    : Frame 149    : Frame 150    : Frame 151    : Deleting graph from isomer index
+Deleting gid 35,36,37,112,113:10 - its timeseries is [[95, 0], [7, 1], [50, 0]]
+Frame 152    : Frame 153    : Frame 154    : Frame 155    : Frame 156    : Frame 157    : Frame 158    : Frame 159    : Deleting graph from isomer index
+Deleting gid 42,43,78,79,227:10 - its timeseries is [[108, 0], [2, 1], [50, 0]]
+Frame 160    : Frame 161    : Frame 162    : Frame 163    : Frame 164    : Deleting graph from isomer index
+Deleting gid 70,71,108,109,110,111:11 - its timeseries is [[95, 0], [20, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 42,43,78,79,227:12 - its timeseries is [[110, 0], [5, 1], [50, 0]]
+Frame 165    : Frame 166    : Frame 167    : Frame 168    : Frame 169    : Frame 170    : Frame 171    : Frame 172    : Frame 173    : Frame 174    : Frame 175    : Deleting graph from isomer index
+Deleting gid 7,8,9,10,42,43,78,79,227:14 - its timeseries is [[117, 0], [9, 1], [50, 0]]
+Frame 176    : Frame 177    : Frame 178    : Deleting graph from isomer index
+Deleting gid 33,56,57,217:15 - its timeseries is [[122, 0], [7, 1], [50, 0]]
+Frame 179    : Frame 180    : Frame 181    : Deleting graph from isomer index
+Deleting gid 42,43,78,79,227:13 - its timeseries is [[115, 0], [2, 1], [9, 0], [6, 1], [50, 0]]
+Frame 182    : Frame 183    : Frame 184    : Frame 185    : Frame 186    : Frame 187    : Frame 188    : Frame 189    : Frame 190    : Frame 191    : Frame 192    : Frame 193    : Frame 194    : Frame 195    : Deleting graph from isomer index
+Deleting gid 7,8,9,10,42,43:11 - its timeseries is [[139, 0], [7, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 80,98,99,181:18 - its timeseries is [[143, 0], [3, 1], [50, 0]]
+Frame 196    : Deleting graph from isomer index
+Deleting gid 13,14,15,55,160:17 - its timeseries is [[140, 0], [7, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 44,45,46,47,48,150,151:19 - its timeseries is [[144, 0], [3, 1], [50, 0]]
+Frame 197    : Frame 198    : Frame 199    : Frame 200    : Frame 201    : Deleting graph from isomer index
+Deleting gid 52,53,54,77,80,84,85,98,99,181:20 - its timeseries is [[146, 0], [6, 1], [50, 0]]
+Frame 202    : Frame 203    : Frame 204    : Frame 205    : Frame 206    : Frame 207    : Frame 208    : Deleting graph from isomer index
+Deleting gid 66,91,92,108,109,110,111:16 - its timeseries is [[139, 0], [20, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 78,79,186,187,227:17 - its timeseries is [[152, 0], [7, 1], [50, 0]]
+Frame 209    : Deleting graph from isomer index
+Deleting gid 93,105,106,218,219:17 - its timeseries is [[153, 0], [7, 1], [50, 0]]
+Frame 210    : Frame 211    : Deleting graph from isomer index
+Deleting gid 52,53,54,77,84,85,98,99:21 - its timeseries is [[152, 0], [10, 1], [50, 0]]
+Frame 212    : Deleting graph from isomer index
+Deleting gid 93,105,106,155,161,218,219:22 - its timeseries is [[160, 0], [3, 1], [50, 0]]
+Frame 213    : Deleting graph from isomer index
+Deleting gid 93,105,106,155,161,218,219:23 - its timeseries is [[163, 0], [1, 1], [50, 0]]
+Frame 214    : Frame 215    : Deleting graph from isomer index
+Deleting gid 155,161,218,219:24 - its timeseries is [[164, 0], [2, 1], [50, 0]]
+Frame 216    : Deleting graph from isomer index
+Deleting gid 155,161,218,219:25 - its timeseries is [[166, 0], [1, 1], [50, 0]]
+Frame 217    : Frame 218    : Frame 219    : Frame 220    : Deleting graph from isomer index
+Deleting gid 55,160,184,185:25 - its timeseries is [[166, 0], [5, 1], [50, 0]]
+Frame 221    : Deleting graph from isomer index
+Deleting gid 56,57,184,185:18 - its timeseries is [[171, 0], [1, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 100,101,102,103,104,134,135:19 - its timeseries is [[171, 0], [1, 1], [50, 0]]
+Frame 222    : Deleting graph from isomer index
+Deleting gid 56,57,100,101,102,103,104,134,135,184,185:28 - its timeseries is [[172, 0], [1, 1], [50, 0]]
+Frame 223    : Frame 224    : Deleting graph from isomer index
+Deleting gid 56,57,100,101,102,103,104,134,135,184,185:31 - its timeseries is [[173, 0], [2, 1], [50, 0]]
+Frame 225    : Deleting graph from isomer index
+Deleting gid 2,3,4,5,6,108,109,110,111:26 - its timeseries is [[170, 0], [6, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 56,57,100,101,102,103,104,134,135,184,185:32 - its timeseries is [[175, 0], [1, 1], [50, 0]]
+Frame 226    : Deleting graph from isomer index
+Deleting gid 33,35,36,37,217:17 - its timeseries is [[175, 0], [2, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 56,57,78,79,100,101,102,103,104,134,135,184,185,227:34 - its timeseries is [[176, 0], [1, 1], [50, 0]]
+Frame 227    : Deleting graph from isomer index
+Deleting gid 86,87,88,89,90,186,187:27 - its timeseries is [[170, 0], [8, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 13,14,15,218,219:17 - its timeseries is [[171, 0], [7, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 28,29,172,173:30 - its timeseries is [[173, 0], [5, 1], [50, 0]]
+Frame 228    : Deleting graph from isomer index
+Deleting gid 28,29,172,173:15 - its timeseries is [[169, 0], [4, 1], [5, 0], [1, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 100,101,102,103,104,134,135,184,185:37 - its timeseries is [[177, 0], [2, 1], [50, 0]]
+Frame 229    : Deleting graph from isomer index
+Deleting gid 28,29,100,101,102,103,104,134,135,172,173,184,185:38 - its timeseries is [[179, 0], [1, 1], [50, 0]]
+Frame 230    : Deleting graph from isomer index
+Deleting gid 2,3,4,5,6,98,99,108,109,110,111:33 - its timeseries is [[176, 0], [5, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 33,35,36,37,217:35 - its timeseries is [[177, 0], [4, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 28,29,56,57,78,79,100,101,102,103,104,172,173,184,185,227:39 - its timeseries is [[180, 0], [1, 1], [50, 0]]
+Frame 231    : Deleting graph from isomer index
+Deleting gid 28,29,56,57,78,79,93,100,101,102,103,104,105,106,172,173,184,185,227:40 - its timeseries is [[181, 0], [1, 1], [50, 0]]
+Frame 232    : Deleting graph from isomer index
+Deleting gid 16,17,18,19,20,155,161:27 - its timeseries is [[177, 0], [6, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 33,35,36,37,217:41 - its timeseries is [[181, 0], [2, 1], [50, 0]]
+Frame 233    : Deleting graph from isomer index
+Deleting gid 28,29,56,57,78,79,93,100,101,102,103,104,105,106,172,173,184,185,218,219,227:42 - its timeseries is [[182, 0], [2, 1], [50, 0]]
+Frame 234    : Deleting graph from isomer index
+Deleting gid 16,17,18,19,20,179,202:19 - its timeseries is [[184, 0], [1, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 28,29,56,57,78,79,93,100,101,102,103,104,105,106,184,185,218,219,227:45 - its timeseries is [[184, 0], [1, 1], [50, 0]]
+Frame 235    : Deleting graph from isomer index
+Deleting gid 28,29,56,57,78,79,93,100,101,102,103,104,105,106,108,109,110,111,184,185,218,219,227:47 - its timeseries is [[185, 0], [1, 1], [50, 0]]
+Frame 236    : Deleting graph from isomer index
+Deleting gid 28,29,55,56,57,78,79,93,100,101,102,103,104,105,106,108,109,110,111,160,184,185,218,219,227:49 - its timeseries is [[186, 0], [1, 1], [50, 0]]
+Frame 237    : Deleting graph from isomer index
+Deleting gid 28,29,55,56,57,78,79,93,100,101,102,103,104,105,106,108,109,110,111,160,184,218,219,227:51 - its timeseries is [[187, 0], [1, 1], [50, 0]]
+Frame 238    : Deleting graph from isomer index
+Deleting gid 16,17,18,19,20,81,82,83,141,179,202:46 - its timeseries is [[185, 0], [4, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 194,195,217:48 - its timeseries is [[185, 0], [4, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 28,29,55,56,57,78,79,93,100,101,102,103,104,105,106,108,109,110,111,160,184,218,219,227:52 - its timeseries is [[188, 0], [1, 1], [50, 0]]
+Frame 239    : Deleting graph from isomer index
+Deleting gid 28,29,56,57,78,79,93,100,101,102,103,104,105,106,108,109,110,111,184,218,219,227:54 - its timeseries is [[189, 0], [1, 1], [50, 0]]
+Frame 240    : Deleting graph from isomer index
+Deleting gid 149,185,203:48 - its timeseries is [[188, 0], [3, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 28,29,56,57,78,79,93,100,101,102,103,104,105,106,108,109,110,111,184,218,219,227:55 - its timeseries is [[190, 0], [1, 1], [50, 0]]
+Frame 241    : Deleting graph from isomer index
+Deleting gid 33,220,221:48 - its timeseries is [[188, 0], [4, 1], [50, 0]]
+Frame 242    : Deleting graph from isomer index
+Deleting gid 35,36:44 - its timeseries is [[183, 0], [10, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 37:43 - its timeseries is [[183, 0], [10, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 185,186,187,203:25 - its timeseries is [[191, 0], [2, 1], [50, 0]]
+Frame 243    : Deleting graph from isomer index
+Deleting gid 0,1,58,59,60,61,62:19 - its timeseries is [[189, 0], [5, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 28,29,56,57,78,79,93,100,101,102,103,104,105,106,108,109,110,111,184,218,219,227:57 - its timeseries is [[192, 0], [2, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 55,118,154,160:25 - its timeseries is [[192, 0], [2, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 185,186,203:48 - its timeseries is [[193, 0], [1, 1], [50, 0]]
+Frame 244    : Deleting graph from isomer index
+Deleting gid 24,25,26,27,81,82,83,141,179,202:53 - its timeseries is [[189, 0], [6, 1], [50, 0]]
+Frame 245    : Deleting graph from isomer index
+Deleting gid 11,12,172,173:18 - its timeseries is [[193, 0], [3, 1], [50, 0]]
+Deleting gid 185,186:0 - its timeseries is [[194, 0], [2, 1], [50, 0]]
+Frame 246    : Deleting graph from isomer index
+Deleting gid 24,25,26,27,179,202:29 - its timeseries is [[173, 0], [6, 1], [16, 0], [2, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 21,22,23,155,161:17 - its timeseries is [[188, 0], [9, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 28,29,56,57,78,79,93,100,101,102,103,104,105,106,184,227:56 - its timeseries is [[191, 0], [1, 1], [2, 0], [3, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 16,17,18,19,20,149:59 - its timeseries is [[195, 0], [2, 1], [50, 0]]
+Frame 247    : Deleting graph from isomer index
+Deleting gid 13,14,15,70,71:36 - its timeseries is [[189, 0], [9, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 108,109,110,111,218,219:29 - its timeseries is [[191, 0], [1, 1], [2, 0], [4, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 16,17,18,19,20,33,149:61 - its timeseries is [[197, 0], [1, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 21,22,23,155,161:62 - its timeseries is [[197, 0], [1, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 28,29,56,57,78,79,93,100,101,102,103,104,105,106,184,227:63 - its timeseries is [[197, 0], [1, 1], [50, 0]]
+Frame 248    : Deleting graph from isomer index
+Deleting gid 11,12,172,173:60 - its timeseries is [[196, 0], [3, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 28,29,56,57,78,79,93,100,101,102,103,104,105,106,184,227:66 - its timeseries is [[198, 0], [1, 1], [50, 0]]
+Deleting gid 33,149:0 - its timeseries is [[198, 0], [1, 1], [50, 0]]
+Frame 249    : Deleting graph from isomer index
+Deleting gid 194:43 - its timeseries is [[195, 0], [5, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 13,14,15,70,71,218,219:65 - its timeseries is [[198, 0], [2, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 28,29,56,57,78,79,93,100,101,102,103,104,105,106,155,161,184,227:67 - its timeseries is [[199, 0], [1, 1], [50, 0]]
+Frame 250    : Deleting graph from isomer index
+Deleting gid 30,32,34,67,68,69,107,187:58 - its timeseries is [[193, 0], [8, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 33,66,91,92,149:68 - its timeseries is [[199, 0], [2, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 35,36,37:69 - its timeseries is [[199, 0], [2, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 13,14,15,28,29,56,57,70,71,78,79,93,100,101,102,103,104,105,106,155,161,184,218,219,227:70 - its timeseries is [[200, 0], [1, 1], [50, 0]]
+Frame 251    : Deleting graph from isomer index
+Deleting gid 217:43 - its timeseries is [[183, 0], [2, 1], [10, 0], [7, 1], [50, 0]]
+Deleting gid 186,194:0 - its timeseries is [[200, 0], [2, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 28,29,56,57,70,71,78,79,93,100,101,102,103,104,105,106,108,109,110,111,155,161,184,227:71 - its timeseries is [[201, 0], [1, 1], [50, 0]]
+Frame 252    : Deleting graph from isomer index
+Deleting gid 28,29,56,57,70,71,78,79,93,100,101,102,103,104,105,106,108,109,110,111,155,161,184,227:72 - its timeseries is [[202, 0], [1, 1], [50, 0]]
+Frame 253    : Deleting graph from isomer index
+Deleting gid 149:43 - its timeseries is [[191, 0], [4, 1], [6, 0], [3, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 13,14,15,218,219:62 - its timeseries is [[201, 0], [3, 1], [50, 0]]
+Frame 254    : Deleting graph from isomer index
+Deleting gid 44,45,46,47,48,63,64,65:50 - its timeseries is [[186, 0], [19, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 28,29,56,57,70,71,78,79,93,101,102,103,104,105,106,108,109,110,111,155,161,184,227:73 - its timeseries is [[203, 0], [2, 1], [50, 0]]
+Frame 255    : Locking  gid 194,217:0 - its timeseries is [[189, 0], [6, 1], [11, 0], [50, 1]]
+Deleting graph from isomer index
+Deleting gid 186,194,217:48 - its timeseries is [[202, 0], [4, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 28,29,56,57,70,71,78,79,93,101,102,104,106,108,109,110,111,155,161,184,227:75 - its timeseries is [[205, 0], [1, 1], [50, 0]]
+Frame 256    : Deleting graph from isomer index
+Deleting gid 28,29,56,57,70,71,78,79,93,101,102,104,106,108,109,110,111,155,161,184,227:76 - its timeseries is [[206, 0], [1, 1], [50, 0]]
+Frame 257    : Deleting graph from isomer index
+Deleting gid 42,43,195:64 - its timeseries is [[197, 0], [11, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 28,29,101,102,104,108,109,110,111:77 - its timeseries is [[207, 0], [1, 1], [50, 0]]
+Frame 258    : Deleting graph from isomer index
+Deleting gid 28,29,101,102,103,104,108,109,110,111:79 - its timeseries is [[208, 0], [1, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 49,50,51,218,219:68 - its timeseries is [[208, 0], [1, 1], [50, 0]]
+Frame 259    : Frame 260    : Deleting graph from isomer index
+Deleting gid 56,57,70,71,78,79,93,106,155,161,227:80 - its timeseries is [[208, 0], [3, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 16,17,18,19,20,33:83 - its timeseries is [[210, 0], [1, 1], [50, 0]]
+Frame 261    : Deleting graph from isomer index
+Deleting gid 56,57,70,71,78,79,93,106,155,161,227:78 - its timeseries is [[207, 0], [1, 1], [3, 0], [1, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 49,50,51,218,219:82 - its timeseries is [[209, 0], [3, 1], [50, 0]]
+Frame 262    : Deleting graph from isomer index
+Deleting gid 28,29,101,102,103,104,108,109,110,111:81 - its timeseries is [[209, 0], [4, 1], [50, 0]]
+Frame 263    : Deleting graph from isomer index
+Deleting gid 70,71,93,106,155,161:85 - its timeseries is [[212, 0], [2, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 13,14,15,28,29,101,102,103,104,108,109,110,111:86 - its timeseries is [[213, 0], [1, 1], [50, 0]]
+Frame 264    : Deleting gid 105,203:0 - its timeseries is [[209, 0], [6, 1], [50, 0]]
+Frame 265    : Deleting graph from isomer index
+Deleting gid 49,50,51,219:74 - its timeseries is [[212, 0], [4, 1], [50, 0]]
+Frame 266    : Deleting graph from isomer index
+Deleting gid 56,57,78,79,227:36 - its timeseries is [[177, 0], [3, 1], [32, 0], [5, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 2,3,4,5,6,172,173:27 - its timeseries is [[216, 0], [1, 1], [50, 0]]
+Frame 267    : Deleting graph from isomer index
+Deleting gid 44,45,46,47,48,63,64,65,70,71,93,106:91 - its timeseries is [[217, 0], [1, 1], [50, 0]]
+Frame 268    : Deleting graph from isomer index
+Deleting gid 0,1,42,43:84 - its timeseries is [[212, 0], [7, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 28,29,101,102,103,104:88 - its timeseries is [[214, 0], [5, 1], [50, 0]]
+Frame 269    : Frame 270    : Deleting graph from isomer index
+Deleting gid 13,14,15,108,109,110,111:87 - its timeseries is [[214, 0], [7, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 2,3,4,5,6,173:83 - its timeseries is [[217, 0], [4, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 44,45,46,47,48,63,64,65,70,71,93,106:92 - its timeseries is [[218, 0], [3, 1], [50, 0]]
+Frame 271    : Deleting graph from isomer index
+Deleting gid 33,66,91,92,149:62 - its timeseries is [[221, 0], [1, 1], [50, 0]]
+Frame 272    : Deleting graph from isomer index
+Deleting gid 184:43 - its timeseries is [[207, 0], [16, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 29,101,102,103,104:94 - its timeseries is [[219, 0], [4, 1], [50, 0]]
+Frame 273    : Deleting graph from isomer index
+Deleting gid 16,17,18,19,20,33,66,91,92,149:96 - its timeseries is [[222, 0], [2, 1], [50, 0]]
+Frame 274    : Deleting graph from isomer index
+Deleting gid 16,17,18,19,20,33,66:61 - its timeseries is [[224, 0], [1, 1], [50, 0]]
+Frame 275    : Frame 276    : Frame 277    : Deleting graph from isomer index
+Deleting gid 44,45,46,47,48,70,71,93,106:95 - its timeseries is [[221, 0], [7, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 58,59,60,61,62,105:98 - its timeseries is [[226, 0], [2, 1], [50, 0]]
+Frame 278    : Deleting graph from isomer index
+Deleting gid 29,101,102,103,104,184:97 - its timeseries is [[223, 0], [6, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 58,59,60,61,62,105:59 - its timeseries is [[223, 0], [3, 1], [2, 0], [1, 1], [50, 0]]
+Frame 279    : Deleting graph from isomer index
+Deleting gid 105:43 - its timeseries is [[205, 0], [4, 1], [6, 0], [8, 1], [6, 0], [1, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 28,100:44 - its timeseries is [[221, 0], [9, 1], [50, 0]]
+Frame 280    : Frame 281    : Deleting graph from isomer index
+Deleting gid 44,45,46,47,48,70,71,93,106:90 - its timeseries is [[215, 0], [2, 1], [11, 0], [4, 1], [50, 0]]
+Frame 282    : Deleting graph from isomer index
+Deleting gid 218:43 - its timeseries is [[212, 0], [7, 1], [8, 0], [6, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 219:43 - its timeseries is [[216, 0], [3, 1], [8, 0], [6, 1], [50, 0]]
+Deleting gid 100,105:0 - its timeseries is [[232, 0], [1, 1], [50, 0]]
+Frame 283    : Deleting graph from isomer index
+Deleting gid 58,59,60,61,62,91,92,149:100 - its timeseries is [[230, 0], [4, 1], [50, 0]]
+Frame 284    : Deleting graph from isomer index
+Deleting gid 28,100,105:99 - its timeseries is [[230, 0], [2, 1], [1, 0], [2, 1], [50, 0]]
+Frame 285    : Deleting graph from isomer index
+Deleting gid 195:43 - its timeseries is [[189, 0], [8, 1], [11, 0], [11, 1], [7, 0], [10, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 203:43 - its timeseries is [[194, 0], [15, 1], [6, 0], [4, 1], [7, 0], [10, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 66:43 - its timeseries is [[212, 0], [7, 1], [9, 0], [8, 1], [50, 0]]
+Frame 286    : Deleting graph from isomer index
+Deleting gid 172:43 - its timeseries is [[203, 0], [6, 1], [8, 0], [5, 1], [8, 0], [7, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 173:43 - its timeseries is [[203, 0], [6, 1], [12, 0], [1, 1], [8, 0], [7, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 103:43 - its timeseries is [[205, 0], [3, 1], [21, 0], [8, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 29,101,102,104,184:94 - its timeseries is [[229, 0], [8, 1], [50, 0]]
+Frame 287    : Deleting graph from isomer index
+Deleting gid 33:43 - its timeseries is [[183, 0], [5, 1], [4, 0], [5, 1], [4, 0], [9, 1], [1, 0], [8, 1], [9, 0], [10, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 66,91,92,149:74 - its timeseries is [[204, 0], [8, 1], [24, 0], [2, 1], [50, 0]]
+Locking  gid 91,92,149:4 - its timeseries is [[212, 0], [9, 1], [3, 0], [6, 1], [4, 0], [2, 1], [2, 0], [50, 1]]
+Frame 288    : Frame 289    : Deleting graph from isomer index
+Deleting gid 185:43 - its timeseries is [[187, 0], [1, 1], [8, 0], [5, 1], [17, 0], [8, 1], [8, 0], [6, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 187:43 - its timeseries is [[218, 0], [8, 1], [8, 0], [6, 1], [50, 0]]
+Frame 290    : Deleting graph from isomer index
+Deleting gid 28,103,105,184:102 - its timeseries is [[238, 0], [3, 1], [50, 0]]
+Frame 291    : Frame 292    : Deleting graph from isomer index
+Deleting gid 186:43 - its timeseries is [[196, 0], [4, 1], [6, 0], [37, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 100:43 - its timeseries is [[203, 0], [18, 1], [14, 0], [8, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 28,105:44 - its timeseries is [[235, 0], [3, 1], [3, 0], [2, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 38,39,40,41,218,219:29 - its timeseries is [[235, 0], [8, 1], [50, 0]]
+Frame 293    : Frame 294    : Frame 295    : Frame 296    : Frame 297    : Frame 298    : Frame 299    : Frame 300    : Deleting graph from isomer index
+Deleting gid 58,59,60,61:106 - its timeseries is [[250, 0], [1, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 62:105 - its timeseries is [[250, 0], [1, 1], [50, 0]]
+Frame 301    : Frame 302    : Locking  gid 33,66:0 - its timeseries is [[219, 0], [2, 1], [4, 0], [3, 1], [10, 0], [7, 1], [8, 0], [50, 1]]
+Deleting graph from isomer index
+Deleting gid 33:105 - its timeseries is [[245, 0], [8, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 66:105 - its timeseries is [[245, 0], [8, 1], [50, 0]]
+Frame 303    : Frame 304    : Frame 305    : Frame 306    : Deleting graph from isomer index
+Deleting gid 72,73,74,75,76,218,219:107 - its timeseries is [[254, 0], [3, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 16,17,18,19,20,70,71,93,106:108 - its timeseries is [[256, 0], [1, 1], [50, 0]]
+Frame 307    : Frame 308    : Deleting graph from isomer index
+Deleting gid 72,73,74,75,76,218,219:109 - its timeseries is [[257, 0], [2, 1], [50, 0]]
+Frame 309    : Frame 310    : Frame 311    : Frame 312    : Deleting graph from isomer index
+Deleting gid 29,101,102,104:101 - its timeseries is [[237, 0], [26, 1], [50, 0]]
+Frame 313    : Frame 314    : Frame 315    : Frame 316    : Frame 317    : Frame 318    : Frame 319    : Frame 320    : Frame 321    : Frame 322    : Frame 323    : Deleting graph from isomer index
+Deleting gid 28,100:103 - its timeseries is [[269, 0], [5, 1], [50, 0]]
+Frame 324    : Frame 325    : Deleting gid 28,100,105:4 - its timeseries is [[268, 0], [1, 1], [5, 0], [2, 1], [50, 0]]
+Frame 326    : Deleting graph from isomer index
+Deleting gid 30,32,34,67,68,69,107,195,203:113 - its timeseries is [[273, 0], [4, 1], [50, 0]]
+Frame 327    : Locking  gid 103,184:0 - its timeseries is [[237, 0], [1, 1], [3, 0], [7, 1], [3, 0], [12, 1], [2, 0], [11, 1], [2, 0], [50, 1]]
+Deleting graph from isomer index
+Deleting gid 103:105 - its timeseries is [[248, 0], [3, 1], [12, 0], [2, 1], [11, 0], [2, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 184:105 - its timeseries is [[248, 0], [3, 1], [12, 0], [2, 1], [11, 0], [2, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 49,50,51,63,64,65:112 - its timeseries is [[268, 0], [10, 1], [50, 0]]
+Frame 328    : Frame 329    : Frame 330    : Frame 331    : Frame 332    : Frame 333    : Frame 334    : Frame 335    : Locking  gid 28:93 - its timeseries is [[219, 0], [2, 1], [11, 0], [1, 1], [13, 0], [7, 1], [33, 0], [50, 1]]
+Deleting graph from isomer index
+Deleting gid 28,105:103 - its timeseries is [[243, 0], [3, 1], [7, 0], [15, 1], [8, 0], [10, 1], [50, 0]]
+Frame 336    : Frame 337    : Frame 338    : Frame 339    : Deleting graph from isomer index
+Deleting gid 35,36,37,203:114 - its timeseries is [[286, 0], [4, 1], [50, 0]]
+Frame 340    : Frame 341    : Frame 342    : Frame 343    : Deleting graph from isomer index
+Deleting gid 186,194,217:115 - its timeseries is [[286, 0], [8, 1], [50, 0]]
+Frame 344    : Deleting graph from isomer index
+Deleting gid 185:105 - its timeseries is [[248, 0], [5, 1], [9, 0], [5, 1], [9, 0], [5, 1], [9, 0], [5, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 187:105 - its timeseries is [[248, 0], [5, 1], [9, 0], [5, 1], [9, 0], [5, 1], [9, 0], [5, 1], [50, 0]]
+Frame 345    : Frame 346    : Frame 347    : Frame 348    : Frame 349    : Frame 350    : Deleting graph from isomer index
+Deleting gid 100:105 - its timeseries is [[243, 0], [25, 1], [8, 0], [12, 1], [7, 0], [6, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 186:105 - its timeseries is [[243, 0], [43, 1], [8, 0], [7, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 195:105 - its timeseries is [[243, 0], [10, 1], [7, 0], [12, 1], [8, 0], [10, 1], [7, 0], [4, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 203:105 - its timeseries is [[243, 0], [10, 1], [7, 0], [12, 1], [8, 0], [6, 1], [11, 0], [4, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 105:105 - its timeseries is [[246, 0], [7, 1], [16, 0], [5, 1], [12, 0], [2, 1], [7, 0], [6, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 172:105 - its timeseries is [[246, 0], [4, 1], [10, 0], [3, 1], [10, 0], [4, 1], [10, 0], [3, 1], [10, 0], [1, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 173:105 - its timeseries is [[246, 0], [4, 1], [10, 0], [3, 1], [10, 0], [4, 1], [10, 0], [3, 1], [10, 0], [1, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 194:105 - its timeseries is [[278, 0], [7, 1], [13, 0], [3, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 217:105 - its timeseries is [[278, 0], [7, 1], [13, 0], [3, 1], [50, 0]]
+Locking  gid 186:116 - its timeseries is [[301, 0], [50, 1]]
+Frame 351    : Frame 352    : Frame 353    : Frame 354    : Frame 355    : Frame 356    : Frame 357    : Frame 358    : Frame 359    : Deleting graph from isomer index
+Deleting gid 49,50,51,52,53,54,77,84,85:117 - its timeseries is [[305, 0], [5, 1], [50, 0]]
+Frame 360    : Frame 361    : Frame 362    : Deleting graph from isomer index
+Deleting gid 29,101,102,104:110 - its timeseries is [[263, 0], [5, 1], [39, 0], [6, 1], [50, 0]]
+Frame 363    : Frame 364    : Frame 365    : Frame 366    : Frame 367    : Frame 368    : Frame 369    : Frame 370    : Deleting graph from isomer index
+Deleting gid 29,100,101,102,104:118 - its timeseries is [[317, 0], [4, 1], [50, 0]]
+Frame 371    : Frame 372    : Deleting graph from isomer index
+Deleting gid 29,100,101,102,104,105:119 - its timeseries is [[321, 0], [2, 1], [50, 0]]
+Frame 373    : Frame 374    : Frame 375    : Frame 376    : Frame 377    : Frame 378    : Frame 379    : Frame 380    : Frame 381    : Frame 382    : Frame 383    : Frame 384    : Frame 385    : Frame 386    : Frame 387    : Frame 388    : Frame 389    : Frame 390    : Frame 391    : Frame 392    : Frame 393    : Frame 394    : Frame 395    : Frame 396    : Frame 397    : Frame 398    : Frame 399    : Frame 400    : Frame 401    : Frame 402    : Frame 403    : Locking  gid 70,71,93,106:89 - its timeseries is [[214, 0], [1, 1], [17, 0], [11, 1], [8, 0], [5, 1], [1, 0], [38, 1], [6, 0], [45, 1], [8, 0], [50, 1]]
+Deleting graph from isomer index
+Deleting gid 70,71,93,106:104 - its timeseries is [[243, 0], [8, 1], [44, 0], [6, 1], [45, 0], [8, 1], [50, 0]]
+Frame 404    : Frame 405    : Frame 406    : Frame 407    : Frame 408    : Frame 409    : Frame 410    : Frame 411    : Frame 412    : Frame 413    : Frame 414    : Frame 415    : Deleting graph from isomer index
+Deleting gid 29,101,102,104:111 - its timeseries is [[268, 0], [39, 1], [6, 0], [4, 1], [6, 0], [43, 1], [50, 0]]
+Frame 416    : Frame 417    : Frame 418    : Frame 419    : Frame 420    : Frame 421    : Frame 422    : Frame 423    : Frame 424    : Frame 425    : Frame 426    : Frame 427    : Locking  gid 185,187:0 - its timeseries is [[201, 0], [17, 1], [8, 0], [8, 1], [6, 0], [8, 1], [5, 0], [9, 1], [5, 0], [9, 1], [5, 0], [9, 1], [5, 0], [10, 1], [2, 0], [11, 1], [2, 0], [12, 1], [2, 0], [12, 1], [4, 0], [11, 1], [3, 0], [13, 1], [1, 0], [50, 1]]
+Deleting gid 185:116 - its timeseries is [[305, 0], [2, 1], [11, 0], [2, 1], [12, 0], [2, 1], [12, 0], [4, 1], [11, 0], [3, 1], [13, 0], [1, 1], [50, 0]]
+Deleting gid 187:116 - its timeseries is [[305, 0], [2, 1], [11, 0], [2, 1], [12, 0], [2, 1], [12, 0], [4, 1], [11, 0], [3, 1], [13, 0], [1, 1], [50, 0]]
+Frame 428    : Frame 429    : Deleting graph from isomer index
+Deleting gid 29,101,102,104:120 - its timeseries is [[366, 0], [14, 1], [50, 0]]
+Locking  gid 29,101,102,104:121 - its timeseries is [[380, 0], [50, 1]]
+Frame 430    : Frame 431    : Frame 432    : Frame 433    : Frame 434    : Frame 435    : Frame 436    : Frame 437    : Frame 438    : Frame 439    : Frame 440    : Frame 441    : Frame 442    : Frame 443    : Frame 444    : Frame 445    : Frame 446    : Frame 447    : Frame 448    : Frame 449    : Frame 450    : Frame 451    : Frame 452    : Frame 453    : Frame 454    : Frame 455    : Frame 456    : Frame 457    : Frame 458    : Frame 459    : Frame 460    : Frame 461    : Frame 462    : Frame 463    : Frame 464    : Frame 465    : Frame 466    : Frame 467    : Frame 468    : Frame 469    : Frame 470    : Frame 471    : Frame 472    : Frame 473    : Frame 474    : Frame 475    : Frame 476    : Frame 477    : Frame 478    : Frame 479    : Frame 480    : Frame 481    : Frame 482    : Frame 483    : Frame 484    : Frame 485    : Deleting gid 172:116 - its timeseries is [[301, 0], [3, 1], [10, 0], [3, 1], [11, 0], [3, 1], [10, 0], [3, 1], [10, 0], [3, 1], [11, 0], [2, 1], [11, 0], [3, 1], [11, 0], [2, 1], [11, 0], [2, 1], [25, 0], [1, 1], [50, 0]]
+Deleting gid 173:116 - its timeseries is [[301, 0], [3, 1], [10, 0], [3, 1], [11, 0], [3, 1], [10, 0], [3, 1], [10, 0], [3, 1], [11, 0], [2, 1], [11, 0], [3, 1], [11, 0], [2, 1], [11, 0], [2, 1], [25, 0], [1, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 91,92,149,182,183:122 - its timeseries is [[431, 0], [5, 1], [50, 0]]
+Frame 486    : Frame 487    : Frame 488    : Frame 489    : Frame 490    : Frame 491    : Frame 492    : Frame 493    : Frame 494    : Deleting graph from isomer index
+Deleting gid 42,43,134,135:123 - its timeseries is [[437, 0], [8, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 70,71,93,106,186:125 - its timeseries is [[440, 0], [5, 1], [50, 0]]
+Frame 495    : Frame 496    : Frame 497    : Frame 498    : Deleting graph from isomer index
+Deleting gid 70,71,93,106,186:124 - its timeseries is [[439, 0], [1, 1], [5, 0], [4, 1], [50, 0]]
+Frame 499    : Frame 500    : Frame 501    : Frame 502    : Frame 503    : Frame 504    : Frame 505    : Frame 506    : Frame 507    : Frame 508    : Frame 509    : Frame 510    : Frame 511    : Frame 512    : Frame 513    : Frame 514    : Frame 515    : Frame 516    : Frame 517    : Frame 518    : Deleting graph from isomer index
+Deleting gid 28,176,177:128 - its timeseries is [[467, 0], [2, 1], [50, 0]]
+Frame 519    : Frame 520    : Frame 521    : Frame 522    : Frame 523    : Deleting graph from isomer index
+Deleting gid 91,92:126 - its timeseries is [[447, 0], [2, 1], [14, 0], [11, 1], [50, 0]]
+Deleting gid 149:116 - its timeseries is [[447, 0], [2, 1], [14, 0], [11, 1], [50, 0]]
+Frame 524    : Frame 525    : Deleting graph from isomer index
+Deleting gid 91,92,149:128 - its timeseries is [[474, 0], [2, 1], [50, 0]]
+Frame 526    : Frame 527    : Frame 528    : Frame 529    : Frame 530    : Deleting graph from isomer index
+Deleting gid 91,92,149:127 - its timeseries is [[456, 0], [7, 1], [13, 0], [5, 1], [50, 0]]
+Frame 531    : Frame 532    : Frame 533    : Frame 534    : Frame 535    : Deleting graph from isomer index
+Deleting gid 70,71,186:129 - its timeseries is [[482, 0], [4, 1], [50, 0]]
+Frame 536    : Frame 537    : Frame 538    : Frame 539    : Deleting graph from isomer index
+Deleting gid 93,106:126 - its timeseries is [[477, 0], [13, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 70,71,186:130 - its timeseries is [[486, 0], [4, 1], [50, 0]]
+Frame 540    : Frame 541    : Frame 542    : Frame 543    : Frame 544    : Frame 545    : Deleting graph from isomer index
+Deleting gid 155,161,195:132 - its timeseries is [[494, 0], [2, 1], [50, 0]]
+Frame 546    : Frame 547    : Frame 548    : Frame 549    : Frame 550    : Frame 551    : Frame 552    : Frame 553    : Frame 554    : Frame 555    : Frame 556    : Frame 557    : Frame 558    : Frame 559    : Frame 560    : Deleting graph from isomer index
+Deleting gid 58,59,60,61,62,91,92,149:135 - its timeseries is [[507, 0], [4, 1], [50, 0]]
+Frame 561    : Frame 562    : Frame 563    : Frame 564    : Frame 565    : Frame 566    : Deleting graph from isomer index
+Deleting gid 70,71,93,106,186:134 - its timeseries is [[502, 0], [7, 1], [3, 0], [5, 1], [50, 0]]
+Frame 567    : Deleting graph from isomer index
+Deleting gid 29,101,102,103,104,184:136 - its timeseries is [[513, 0], [5, 1], [50, 0]]
+Frame 568    : Frame 569    : Frame 570    : Frame 571    : Frame 572    : Frame 573    : Frame 574    : Frame 575    : Frame 576    : Deleting graph from isomer index
+Deleting gid 28,176,177:127 - its timeseries is [[469, 0], [4, 1], [21, 0], [6, 1], [21, 0], [6, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 70,71,93,106,186:137 - its timeseries is [[526, 0], [1, 1], [50, 0]]
+Frame 577    : Frame 578    : Frame 579    : Frame 580    : Deleting graph from isomer index
+Deleting gid 28,176,177:138 - its timeseries is [[527, 0], [4, 1], [50, 0]]
+Frame 581    : Frame 582    : Frame 583    : Frame 584    : Frame 585    : Deleting graph from isomer index
+Deleting gid 70,71,93,106,186:131 - its timeseries is [[490, 0], [4, 1], [15, 0], [3, 1], [15, 0], [9, 1], [50, 0]]
+Frame 586    : Deleting graph from isomer index
+Deleting gid 179,195,202,203:140 - its timeseries is [[533, 0], [4, 1], [50, 0]]
+Frame 587    : Deleting graph from isomer index
+Deleting gid 179,195,202:132 - its timeseries is [[537, 0], [1, 1], [50, 0]]
+Frame 588    : Deleting graph from isomer index
+Deleting gid 70,71,186:141 - its timeseries is [[536, 0], [3, 1], [50, 0]]
+Frame 589    : Frame 590    : Frame 591    : Frame 592    : Frame 593    : Frame 594    : Frame 595    : Frame 596    : Frame 597    : Frame 598    : Deleting graph from isomer index
+Deleting gid 112,113,155,161:143 - its timeseries is [[545, 0], [4, 1], [50, 0]]
+Frame 599    : Frame 600    : Frame 601    : Frame 602    : Frame 603    : Frame 604    : Frame 605    : Frame 606    : Frame 607    : Frame 608    : Frame 609    : Frame 610    : Frame 611    : Frame 612    : Frame 613    : Deleting graph from isomer index
+Deleting gid 28,176,177:139 - its timeseries is [[531, 0], [4, 1], [25, 0], [4, 1], [50, 0]]
+Frame 614    : Frame 615    : Frame 616    : Frame 617    : Frame 618    : Frame 619    : Deleting graph from isomer index
+Deleting gid 93,106:142 - its timeseries is [[536, 0], [7, 1], [13, 0], [14, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 49,50,51,118,154:144 - its timeseries is [[562, 0], [8, 1], [50, 0]]
+Frame 620    : Frame 621    : Frame 622    : Frame 623    : Frame 624    : Frame 625    : Deleting graph from isomer index
+Deleting gid 28,91,92,149,176,177:146 - its timeseries is [[573, 0], [3, 1], [50, 0]]
+Frame 626    : Frame 627    : Deleting graph from isomer index
+Deleting gid 93,106,186:139 - its timeseries is [[570, 0], [8, 1], [50, 0]]
+Frame 628    : Frame 629    : Frame 630    : Frame 631    : Frame 632    : Deleting graph from isomer index
+Deleting gid 28,91,92,149,176,177:145 - its timeseries is [[571, 0], [2, 1], [3, 0], [7, 1], [50, 0]]
+Frame 633    : Frame 634    : Frame 635    : Frame 636    : Frame 637    : Frame 638    : Frame 639    : Locking  gid 93,106,186:4 - its timeseries is [[543, 0], [13, 1], [22, 0], [1, 1], [11, 0], [50, 1]]
+Deleting gid 93:116 - its timeseries is [[579, 0], [11, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 106,186:142 - its timeseries is [[579, 0], [11, 1], [50, 0]]
+Frame 640    : Frame 641    : Frame 642    : Frame 643    : Frame 644    : Frame 645    : Frame 646    : Frame 647    : Frame 648    : Frame 649    : Frame 650    : Frame 651    : Frame 652    : Frame 653    : Frame 654    : Frame 655    : Frame 656    : Frame 657    : Frame 658    : Locking  gid 28,176,177:4 - its timeseries is [[473, 0], [21, 1], [6, 0], [21, 1], [14, 0], [25, 1], [4, 0], [7, 1], [12, 0], [13, 1], [13, 0], [50, 1]]
+Deleting graph from isomer index
+Deleting gid 28,78,79,176,177,227:145 - its timeseries is [[596, 0], [13, 1], [50, 0]]
+Frame 659    : Frame 660    : Frame 661    : Frame 662    : Frame 663    : Frame 664    : Frame 665    : Frame 666    : Frame 667    : Frame 668    : Frame 669    : Frame 670    : Frame 671    : Frame 672    : Frame 673    : Frame 674    : Frame 675    : Frame 676    : Frame 677    : Frame 678    : Frame 679    : Frame 680    : Frame 681    : Frame 682    : Frame 683    : Frame 684    : Frame 685    : Frame 686    : Frame 687    : Frame 688    : Frame 689    : Frame 690    : Frame 691    : Frame 692    : Frame 693    : Frame 694    : Frame 695    : Frame 696    : Frame 697    : Frame 698    : Frame 699    : Frame 700    : Frame 701    : Frame 702    : Frame 703    : Frame 704    : Frame 705    : Frame 706    : Frame 707    : Frame 708    : Frame 709    : Frame 710    : Frame 711    : Frame 712    : Frame 713    : Frame 714    : Frame 715    : Frame 716    : Deleting gid 93:116 - its timeseries is [[662, 0], [5, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 106,186:147 - its timeseries is [[662, 0], [5, 1], [50, 0]]
+Frame 717    : Frame 718    : Frame 719    : Frame 720    : Frame 721    : Frame 722    : Frame 723    : Frame 724    : Frame 725    : Deleting graph from isomer index
+Deleting gid 29,101,102,104:133 - its timeseries is [[500, 0], [9, 1], [22, 0], [25, 1], [7, 0], [17, 1], [37, 0], [11, 1], [39, 0], [9, 1], [50, 0]]
+Frame 726    : Frame 727    : Frame 728    : Frame 729    : Frame 730    : Frame 731    : Frame 732    : Frame 733    : Frame 734    : Frame 735    : Frame 736    : Frame 737    : Frame 738    : Locking  gid 195,203:0 - its timeseries is [[219, 0], [7, 1], [10, 0], [7, 1], [10, 0], [7, 1], [12, 0], [1, 1], [4, 0], [3, 1], [10, 0], [7, 1], [8, 0], [7, 1], [9, 0], [7, 1], [8, 0], [8, 1], [8, 0], [7, 1], [8, 0], [8, 1], [7, 0], [8, 1], [7, 0], [8, 1], [7, 0], [8, 1], [7, 0], [7, 1], [7, 0], [8, 1], [7, 0], [8, 1], [7, 0], [8, 1], [6, 0], [8, 1], [6, 0], [8, 1], [7, 0], [8, 1], [5, 0], [6, 1], [6, 0], [11, 1], [3, 0], [12, 1], [2, 0], [12, 1], [2, 0], [24, 1], [3, 0], [11, 1], [3, 0], [12, 1], [1, 0], [39, 1], [1, 0], [13, 1], [1, 0], [50, 1]]
+Deleting gid 195:116 - its timeseries is [[301, 0], [4, 1], [7, 0], [9, 1], [7, 0], [8, 1], [8, 0], [8, 1], [7, 0], [8, 1], [8, 0], [7, 1], [8, 0], [7, 1], [8, 0], [7, 1], [8, 0], [7, 1], [7, 0], [7, 1], [8, 0], [7, 1], [8, 0], [7, 1], [8, 0], [6, 1], [8, 0], [1, 1], [2, 0], [3, 1], [8, 0], [7, 1], [8, 0], [5, 1], [11, 0], [1, 1], [11, 0], [3, 1], [12, 0], [2, 1], [12, 0], [2, 1], [24, 0], [3, 1], [11, 0], [3, 1], [12, 0], [1, 1], [39, 0], [1, 1], [13, 0], [1, 1], [50, 0]]
+Deleting gid 203:116 - its timeseries is [[301, 0], [4, 1], [7, 0], [9, 1], [7, 0], [8, 1], [8, 0], [8, 1], [7, 0], [8, 1], [8, 0], [7, 1], [8, 0], [7, 1], [8, 0], [7, 1], [8, 0], [7, 1], [7, 0], [7, 1], [8, 0], [7, 1], [8, 0], [7, 1], [8, 0], [6, 1], [8, 0], [6, 1], [8, 0], [7, 1], [8, 0], [5, 1], [10, 0], [2, 1], [11, 0], [3, 1], [12, 0], [2, 1], [12, 0], [2, 1], [24, 0], [3, 1], [11, 0], [3, 1], [12, 0], [1, 1], [39, 0], [1, 1], [13, 0], [1, 1], [50, 0]]
+Frame 739    : Frame 740    : Frame 741    : Frame 742    : Frame 743    : Frame 744    : Frame 745    : Frame 746    : Frame 747    : Frame 748    : Frame 749    : Frame 750    : Frame 751    : Frame 752    : Frame 753    : Frame 754    : Frame 755    : Frame 756    : Frame 757    : Frame 758    : Frame 759    : Frame 760    : Frame 761    : Frame 762    : Frame 763    : Frame 764    : Frame 765    : Frame 766    : Frame 767    : Frame 768    : Frame 769    : Frame 770    : Frame 771    : Frame 772    : Frame 773    : Frame 774    : Frame 775    : Frame 776    : Frame 777    : Frame 778    : Frame 779    : Frame 780    : Frame 781    : Frame 782    : Frame 783    : Frame 784    : Frame 785    : Frame 786    : Frame 787    : Frame 788    : Frame 789    : Deleting gid 91:116 - its timeseries is [[739, 0], [1, 1], [50, 0]]
+Deleting graph from isomer index
+Deleting gid 92,149:148 - its timeseries is [[739, 0], [1, 1], [50, 0]]
+Frame 790    : Frame 791    : Frame 792    : Frame 793    : Frame 794    : Frame 795    : Frame 796    : Frame 797    : Frame 798    : Frame 799    : Frame 800    : Frame 801    : Frame 802    : Frame 803    : Frame 804    : Frame 805    : Frame 806    : Frame 807    : Frame 808    : Frame 809    : Frame 810    : Frame 811    : Frame 812    : Frame 813    : Frame 814    : Frame 815    : Frame 816    : Frame 817    : Frame 818    : Frame 819    : Frame 820    : Frame 821    : Frame 822    : Frame 823    : Frame 824    : Frame 825    : Frame 826    : Frame 827    : Frame 828    : Frame 829    : Frame 830    : Frame 831    : Frame 832    : Frame 833    : Frame 834    : Frame 835    : Frame 836    : Frame 837    : Frame 838    : Frame 839    : Frame 840    : Frame 841    : Frame 842    : Frame 843    : Frame 844    : Frame 845    : Frame 846    : Frame 847    : Frame 848    : Frame 849    : Frame 850    : Frame 851    : Frame 852    : Frame 853    : Frame 854    : Frame 855    : Frame 856    : Frame 857    : Frame 858    : Frame 859    : Frame 860    : Frame 861    : Frame 862    : Frame 863    : Frame 864    : Frame 865    : Frame 866    : Frame 867    : Frame 868    : Frame 869    : Frame 870    : Frame 871    : Frame 872    : Frame 873    : Frame 874    : Frame 875    : Frame 876    : Frame 877    : Frame 878    : Frame 879    : Frame 880    : Frame 881    : Frame 882    : Frame 883    : Frame 884    : Frame 885    : Frame 886    : Frame 887    : Frame 888    : Frame 889    : Frame 890    : Frame 891    : Frame 892    : Frame 893    : Frame 894    : Frame 895    : Frame 896    : Frame 897    : Frame 898    : Frame 899    : Frame 900    : Frame 901    : Frame 902    : Frame 903    : Frame 904    : Frame 905    : Frame 906    : Frame 907    : Frame 908    : Frame 909    : Frame 910    : Frame 911    : Frame 912    : Frame 913    : Frame 914    : Frame 915    : Frame 916    : Frame 917    : Frame 918    : Frame 919    : Deleting graph from isomer index
+Deleting gid 49,50,51,103,184:149 - its timeseries is [[868, 0], [2, 1], [50, 0]]
+Frame 920    : Frame 921    : Frame 922    : Frame 923    : Frame 924    : Frame 925    : Frame 926    : Frame 927    : Frame 928    : Frame 929    : Frame 930    : Frame 931    : Frame 932    : Frame 933    : Frame 934    : Frame 935    : Frame 936    : Frame 937    : Frame 938    : Frame 939    : Frame 940    : Frame 941    : Frame 942    : Frame 943    : Frame 944    : Frame 945    : Frame 946    : Frame 947    : Frame 948    : Frame 949    : Frame 950    : Frame 951    : Frame 952    : Frame 953    : Frame 954    : Frame 955    : Frame 956    : Frame 957    : Frame 958    : Frame 959    : Frame 960    : Frame 961    : Frame 962    : Frame 963    : Frame 964    : Frame 965    : Frame 966    : Frame 967    : Frame 968    : Frame 969    : Frame 970    : Frame 971    : Frame 972    : Frame 973    : Frame 974    : Frame 975    : Frame 976    : Frame 977    : Frame 978    : Frame 979    : Frame 980    : Frame 981    : Frame 982    : Frame 983    : Frame 984    : Frame 985    : Frame 986    : Frame 987    : Frame 988    : Frame 989    : Frame 990    : Frame 991    : Frame 992    : Frame 993    : Frame 994    : Frame 995    : Frame 996    : Frame 997    : Frame 998    : Frame 999    : Frame 1000   : Frame 1001   : Frame 1002   : Frame 1003   : Frame 1004   : Frame 1005   : Frame 1006   : Frame 1007   : Frame 1008   : Frame 1009   : Frame 1010   : Frame 1011   : Frame 1012   : Frame 1013   : Frame 1014   : Frame 1015   : Frame 1016   : Frame 1017   : Frame 1018   : Frame 1019   : Frame 1020   : Frame 1021   : Frame 1022   : Frame 1023   : Frame 1024   : Frame 1025   : Frame 1026   : Frame 1027   : Frame 1028   : Frame 1029   : Frame 1030   : Frame 1031   : Frame 1032   : Frame 1033   : Frame 1034   : Frame 1035   : Frame 1036   : Frame 1037   : Frame 1038   : Frame 1039   : Frame 1040   : Frame 1041   : Frame 1042   : Frame 1043   : Frame 1044   : Frame 1045   : Frame 1046   : Frame 1047   : Frame 1048   : Frame 1049   : Frame 1050   : Frame 1051   : Frame 1052   : Frame 1053   : Frame 1054   : Frame 1055   : Frame 1056   : Frame 1057   : Frame 1058   : Frame 1059   : Frame 1060   : Frame 1061   : Frame 1062   : Frame 1063   : Frame 1064   : Frame 1065   : Frame 1066   : Frame 1067   : Frame 1068   : Frame 1069   : Frame 1070   : Frame 1071   : Frame 1072   : Frame 1073   : Frame 1074   : Frame 1075   : Frame 1076   : Frame 1077   : Frame 1078   : Frame 1079   : Frame 1080   : Frame 1081   : Frame 1082   : Frame 1083   : Frame 1084   : Frame 1085   : Frame 1086   : Frame 1087   : Frame 1088   : Frame 1089   : Frame 1090   : Frame 1091   : Frame 1092   : Frame 1093   : Frame 1094   : Frame 1095   : Frame 1096   : Frame 1097   : Frame 1098   : Frame 1099   : Frame 1100   : Frame 1101   : Frame 1102   : Frame 1103   : Frame 1104   : Frame 1105   : Frame 1106   : Frame 1107   : Frame 1108   : Frame 1109   : Frame 1110   : Frame 1111   : Frame 1112   : Frame 1113   : Frame 1114   : Frame 1115   : Frame 1116   : Frame 1117   : Frame 1118   : Frame 1119   : Frame 1120   : Frame 1121   : Frame 1122   : Frame 1123   : Frame 1124   : Frame 1125   : Frame 1126   : Frame 1127   : Frame 1128   : Frame 1129   : Frame 1130   : Frame 1131   : Frame 1132   : Frame 1133   : Frame 1134   : Frame 1135   : Frame 1136   : Frame 1137   : Frame 1138   : Frame 1139   : Frame 1140   : Frame 1141   : Frame 1142   : Frame 1143   : Frame 1144   : Frame 1145   : Frame 1146   : Frame 1147   : Frame 1148   : Frame 1149   : Frame 1150   : Frame 1151   : Frame 1152   : Frame 1153   : Frame 1154   : Frame 1155   : Frame 1156   : Frame 1157   : Frame 1158   : Frame 1159   : Frame 1160   : Frame 1161   : Frame 1162   : Frame 1163   : Frame 1164   : Frame 1165   : Frame 1166   : Frame 1167   : Frame 1168   : Frame 1169   : Frame 1170   : Frame 1171   : Frame 1172   : Frame 1173   : Frame 1174   : Frame 1175   : Frame 1176   : Frame 1177   : Frame 1178   : Frame 1179   : Frame 1180   : Frame 1181   : Frame 1182   : Frame 1183   : Frame 1184   : Frame 1185   : Frame 1186   : Frame 1187   : Frame 1188   : Frame 1189   : Frame 1190   : Frame 1191   : Frame 1192   : Frame 1193   : Frame 1194   : Frame 1195   : Frame 1196   : Frame 1197   : Frame 1198   : Frame 1199   : Frame 1200   : Frame 1201   : Frame 1202   : Frame 1203   : Frame 1204   : Frame 1205   : Frame 1206   : Frame 1207   : Frame 1208   : Frame 1209   : Frame 1210   : Frame 1211   : Frame 1212   : Frame 1213   : Frame 1214   : Frame 1215   : Frame 1216   : Frame 1217   : Frame 1218   : Frame 1219   : Frame 1220   : Frame 1221   : Frame 1222   : Frame 1223   : Frame 1224   : Frame 1225   : Frame 1226   : Frame 1227   : Locking  gid 100,105:0 - its timeseries is [[288, 0], [7, 1], [10, 0], [6, 1], [12, 0], [4, 1], [12, 0], [6, 1], [11, 0], [6, 1], [10, 0], [6, 1], [11, 0], [6, 1], [10, 0], [7, 1], [9, 0], [7, 1], [9, 0], [7, 1], [9, 0], [6, 1], [9, 0], [7, 1], [8, 0], [7, 1], [8, 0], [7, 1], [9, 0], [7, 1], [8, 0], [7, 1], [8, 0], [7, 1], [7, 0], [7, 1], [7, 0], [7, 1], [8, 0], [7, 1], [8, 0], [7, 1], [8, 0], [7, 1], [8, 0], [7, 1], [8, 0], [7, 1], [7, 0], [8, 1], [7, 0], [7, 1], [7, 0], [8, 1], [7, 0], [7, 1], [7, 0], [8, 1], [6, 0], [8, 1], [6, 0], [8, 1], [6, 0], [8, 1], [7, 0], [8, 1], [5, 0], [9, 1], [5, 0], [9, 1], [5, 0], [8, 1], [6, 0], [8, 1], [6, 0], [8, 1], [5, 0], [9, 1], [5, 0], [9, 1], [5, 0], [9, 1], [4, 0], [9, 1], [5, 0], [9, 1], [5, 0], [9, 1], [4, 0], [9, 1], [5, 0], [9, 1], [4, 0], [10, 1], [3, 0], [10, 1], [4, 0], [9, 1], [4, 0], [10, 1], [3, 0], [10, 1], [4, 0], [9, 1], [4, 0], [10, 1], [3, 0], [10, 1], [3, 0], [11, 1], [2, 0], [11, 1], [3, 0], [10, 1], [3, 0], [11, 1], [2, 0], [11, 1], [2, 0], [11, 1], [2, 0], [12, 1], [1, 0], [12, 1], [1, 0], [50, 1]]
+Deleting gid 100:116 - its timeseries is [[301, 0], [4, 1], [6, 0], [6, 1], [10, 0], [12, 1], [6, 0], [11, 1], [6, 0], [10, 1], [6, 0], [11, 1], [6, 0], [10, 1], [7, 0], [9, 1], [7, 0], [9, 1], [7, 0], [9, 1], [6, 0], [9, 1], [7, 0], [8, 1], [7, 0], [8, 1], [7, 0], [9, 1], [7, 0], [8, 1], [7, 0], [8, 1], [7, 0], [7, 1], [7, 0], [7, 1], [7, 0], [8, 1], [7, 0], [8, 1], [7, 0], [8, 1], [7, 0], [8, 1], [7, 0], [8, 1], [7, 0], [7, 1], [8, 0], [7, 1], [7, 0], [7, 1], [8, 0], [7, 1], [7, 0], [7, 1], [8, 0], [6, 1], [8, 0], [6, 1], [8, 0], [6, 1], [8, 0], [7, 1], [8, 0], [5, 1], [9, 0], [5, 1], [9, 0], [5, 1], [8, 0], [6, 1], [8, 0], [6, 1], [8, 0], [5, 1], [9, 0], [5, 1], [9, 0], [5, 1], [9, 0], [4, 1], [9, 0], [5, 1], [9, 0], [5, 1], [9, 0], [4, 1], [9, 0], [5, 1], [9, 0], [4, 1], [10, 0], [3, 1], [10, 0], [4, 1], [9, 0], [4, 1], [10, 0], [3, 1], [10, 0], [4, 1], [9, 0], [4, 1], [10, 0], [3, 1], [10, 0], [3, 1], [11, 0], [2, 1], [11, 0], [3, 1], [10, 0], [3, 1], [11, 0], [2, 1], [11, 0], [2, 1], [11, 0], [2, 1], [12, 0], [1, 1], [12, 0], [1, 1], [50, 0]]
+Deleting gid 105:116 - its timeseries is [[301, 0], [4, 1], [6, 0], [10, 1], [6, 0], [12, 1], [6, 0], [11, 1], [6, 0], [10, 1], [6, 0], [11, 1], [6, 0], [10, 1], [7, 0], [9, 1], [7, 0], [9, 1], [7, 0], [9, 1], [6, 0], [9, 1], [7, 0], [8, 1], [7, 0], [8, 1], [7, 0], [9, 1], [7, 0], [8, 1], [7, 0], [8, 1], [7, 0], [7, 1], [7, 0], [7, 1], [7, 0], [8, 1], [7, 0], [8, 1], [7, 0], [8, 1], [7, 0], [8, 1], [7, 0], [8, 1], [7, 0], [7, 1], [8, 0], [7, 1], [7, 0], [7, 1], [8, 0], [7, 1], [7, 0], [7, 1], [8, 0], [6, 1], [8, 0], [6, 1], [8, 0], [6, 1], [8, 0], [7, 1], [8, 0], [5, 1], [9, 0], [5, 1], [9, 0], [5, 1], [8, 0], [6, 1], [8, 0], [6, 1], [8, 0], [5, 1], [9, 0], [5, 1], [9, 0], [5, 1], [9, 0], [4, 1], [9, 0], [5, 1], [9, 0], [5, 1], [9, 0], [4, 1], [9, 0], [5, 1], [9, 0], [4, 1], [10, 0], [3, 1], [10, 0], [4, 1], [9, 0], [4, 1], [10, 0], [3, 1], [10, 0], [4, 1], [9, 0], [4, 1], [10, 0], [3, 1], [10, 0], [3, 1], [11, 0], [2, 1], [11, 0], [3, 1], [10, 0], [3, 1], [11, 0], [2, 1], [11, 0], [2, 1], [11, 0], [2, 1], [12, 0], [1, 1], [12, 0], [1, 1], [50, 0]]
+Frame 1228   : Frame 1229   : Frame 1230   : Frame 1231   : Frame 1232   : Frame 1233   : Frame 1234   : Frame 1235   : Frame 1236   : Frame 1237   : Frame 1238   : Frame 1239   : Frame 1240   : Frame 1241   : Frame 1242   : Frame 1243   : Frame 1244   : Frame 1245   : Frame 1246   : Frame 1247   : Frame 1248   : Frame 1249   : Frame 1250   : Frame 1251   : Frame 1252   : Frame 1253   : Frame 1254   : Frame 1255   : Frame 1256   : Frame 1257   : Frame 1258   : Frame 1259   : Frame 1260   : Frame 1261   : Frame 1262   : Frame 1263   : Frame 1264   : Frame 1265   : Frame 1266   : Frame 1267   : Frame 1268   : Frame 1269   : Frame 1270   : Frame 1271   : Frame 1272   : Frame 1273   : Frame 1274   : Frame 1275   : Frame 1276   : Frame 1277   : Frame 1278   : Frame 1279   : Frame 1280   : Frame 1281   : Frame 1282   : Frame 1283   : Frame 1284   : Frame 1285   : Frame 1286   : Frame 1287   : Frame 1288   : Frame 1289   : Frame 1290   : Frame 1291   : Frame 1292   : Frame 1293   : Frame 1294   : Frame 1295   : Frame 1296   : Frame 1297   : Frame 1298   : Frame 1299   : Frame 1300   : Frame 1301   : Frame 1302   : Frame 1303   : Frame 1304   : Frame 1305   : Frame 1306   : Frame 1307   : Frame 1308   : Frame 1309   : Frame 1310   : Frame 1311   : Frame 1312   : Frame 1313   : Frame 1314   : Frame 1315   : Frame 1316   : Frame 1317   : Frame 1318   : Frame 1319   : Frame 1320   : Frame 1321   : Frame 1322   : Frame 1323   : Frame 1324   : Frame 1325   : Frame 1326   : Frame 1327   : Frame 1328   : Frame 1329   : Frame 1330   : Frame 1331   : Frame 1332   : Frame 1333   : Frame 1334   : Frame 1335   : Frame 1336   : Frame 1337   : Frame 1338   : Frame 1339   : Frame 1340   : Frame 1341   : Frame 1342   : Frame 1343   : Frame 1344   : Frame 1345   : Frame 1346   : Frame 1347   : Frame 1348   : Frame 1349   : Frame 1350   : Frame 1351   : Frame 1352   : Frame 1353   : Frame 1354   : Frame 1355   : Frame 1356   : Frame 1357   : Frame 1358   : Frame 1359   : Frame 1360   : Frame 1361   : Frame 1362   : Frame 1363   : Frame 1364   : Frame 1365   : Frame 1366   : Frame 1367   : Frame 1368   : Frame 1369   : Frame 1370   : Frame 1371   : Frame 1372   : Frame 1373   : Frame 1374   : Frame 1375   : Frame 1376   : Frame 1377   : Frame 1378   : Frame 1379   : Frame 1380   : Frame 1381   : Frame 1382   : Frame 1383   : Frame 1384   : Frame 1385   : Frame 1386   : Frame 1387   : Frame 1388   : Frame 1389   : Frame 1390   : Frame 1391   : Frame 1392   : Frame 1393   : Frame 1394   : Frame 1395   : Frame 1396   : Frame 1397   : Frame 1398   : Frame 1399   : Frame 1400   : Frame 1401   : Frame 1402   : Frame 1403   : Frame 1404   : Frame 1405   : Frame 1406   : Frame 1407   : Frame 1408   : Frame 1409   : Frame 1410   : Frame 1411   : Frame 1412   : Frame 1413   : Frame 1414   : Frame 1415   : Frame 1416   : Frame 1417   : Frame 1418   : Frame 1419   : Frame 1420   : Frame 1421   : Frame 1422   : Frame 1423   : Frame 1424   : Frame 1425   : Frame 1426   : Frame 1427   : Frame 1428   : Frame 1429   : Frame 1430   : Frame 1431   : Frame 1432   : Frame 1433   : Frame 1434   : Frame 1435   : Frame 1436   : Frame 1437   : Frame 1438   : Frame 1439   : Frame 1440   : Frame 1441   : Frame 1442   : Frame 1443   : Frame 1444   : Frame 1445   : Frame 1446   : Frame 1447   : Frame 1448   : Frame 1449   : Frame 1450   : Frame 1451   : Frame 1452   : Frame 1453   : Frame 1454   : Frame 1455   : Frame 1456   : Frame 1457   : Frame 1458   : Frame 1459   : Frame 1460   : Frame 1461   : Frame 1462   : Frame 1463   : Frame 1464   : Frame 1465   : Frame 1466   : Frame 1467   : Frame 1468   : Frame 1469   : Frame 1470   : Frame 1471   : Frame 1472   : Frame 1473   : Frame 1474   : Frame 1475   : Frame 1476   : Frame 1477   : Frame 1478   : Frame 1479   : Frame 1480   : Frame 1481   : Frame 1482   : Frame 1483   : Frame 1484   : Frame 1485   : Frame 1486   : Frame 1487   : Frame 1488   : Frame 1489   : Frame 1490   : Frame 1491   : Frame 1492   : Frame 1493   : Frame 1494   : Frame 1495   : Frame 1496   : Frame 1497   : Frame 1498   : Frame 1499   : Frame 1500   : Frame 1501   : Frame 1502   : Frame 1503   : Frame 1504   : Frame 1505   : Frame 1506   : Frame 1507   : Frame 1508   : Frame 1509   :
+Done building graphs.
+Rectifying time series...
+1 of 102 done Raw Signal: [[189, 1], [5, 0], [18, 1], [7, 0], [1291, 1]]
+Filled    : [[189, 1], [5, 1], [18, 1], [7, 1], [1291, 1]]
+Rectified : [[1510, 1]]
+2 of 102 done Raw Signal: [[170, 1], [11, 0], [35, 1], [5, 0], [1289, 1]]
+Filled    : [[170, 1], [11, 1], [35, 1], [5, 1], [1289, 1]]
+Rectified : [[1510, 1]]
+3 of 102 done Raw Signal: [[117, 1], [9, 0], [13, 1], [7, 0], [1364, 1]]
+Filled    : [[117, 1], [9, 1], [13, 1], [7, 1], [1364, 1]]
+Rectified : [[1510, 1]]
+4 of 102 done Raw Signal: [[193, 1], [6, 0], [1311, 1]]
+Filled    : [[193, 1], [6, 1], [1311, 1]]
+Rectified : [[1510, 1]]
+5 of 102 done Raw Signal: [[140, 1], [7, 0], [24, 1], [7, 0], [11, 1], [15, 0], [9, 1], [8, 0], [1289, 1]]
+Filled    : [[140, 1], [7, 1], [24, 1], [7, 1], [11, 1], [15, 1], [9, 1], [8, 1], [1289, 1]]
+Rectified : [[1510, 1]]
+6 of 102 done Raw Signal: [[177, 1], [6, 0], [1, 1], [5, 0], [6, 1], [3, 0], [12, 1], [1, 0], [11, 1], [3, 0], [31, 1], [1, 0], [1253, 1]]
+Filled    : [[177, 1], [6, 1], [1, 1], [5, 1], [6, 1], [3, 1], [12, 1], [1, 1], [11, 1], [3, 1], [31, 1], [1, 1], [1253, 1]]
+Rectified : [[1510, 1]]
+7 of 102 done Raw Signal: [[188, 1], [10, 0], [1312, 1]]
+Filled    : [[188, 1], [10, 1], [1312, 1]]
+Rectified : [[1510, 1]]
+8 of 102 done Raw Signal: [[173, 1], [6, 0], [10, 1], [8, 0], [1313, 1]]
+Filled    : [[173, 1], [6, 1], [10, 1], [8, 1], [1313, 1]]
+Rectified : [[1510, 1]]
+9 of 102 done Raw Signal: [[169, 1], [1341, 0]]
+Filled    : [[169, 1], [1341, 0]]
+Rectified : [[169, 1], [1341, 0]]
+10 of 102 done Raw Signal: [[193, 1], [8, 0], [72, 1], [4, 0], [1233, 1]]
+Filled    : [[193, 1], [8, 1], [72, 1], [4, 1], [1233, 1]]
+Rectified : [[1510, 1]]
+11 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+12 of 102 done Raw Signal: [[122, 1], [7, 0], [46, 1], [1335, 0]]
+Filled    : [[122, 1], [7, 1], [46, 1], [1335, 0]]
+Rectified : [[175, 1], [1335, 0]]
+13 of 102 done Raw Signal: [[95, 1], [7, 0], [73, 1], [18, 0], [6, 1], [2, 0], [85, 1], [4, 0], [1220, 1]]
+Filled    : [[95, 1], [7, 1], [73, 1], [18, 1], [6, 1], [2, 1], [85, 1], [4, 1], [1220, 1]]
+Rectified : [[1510, 1]]
+14 of 102 done Raw Signal: [[235, 1], [8, 0], [1267, 1]]
+Filled    : [[235, 1], [8, 1], [1267, 1]]
+Rectified : [[1510, 1]]
+15 of 102 done Raw Signal: [[108, 1], [24, 0], [7, 1], [7, 0], [51, 1], [11, 0], [4, 1], [7, 0], [218, 1], [8, 0], [1065, 1]]
+Filled    : [[108, 1], [24, 1], [7, 1], [7, 1], [51, 1], [11, 1], [4, 1], [7, 1], [218, 1], [8, 1], [1065, 1]]
+Rectified : [[1510, 1]]
+16 of 102 done Raw Signal: [[80, 1], [12, 0], [52, 1], [3, 0], [39, 1], [19, 0], [10, 1], [17, 0], [1278, 1]]
+Filled    : [[80, 1], [12, 1], [52, 1], [3, 1], [39, 1], [19, 1], [10, 1], [17, 1], [1278, 1]]
+Rectified : [[1510, 1]]
+17 of 102 done Raw Signal: [[208, 1], [8, 0], [52, 1], [10, 0], [27, 1], [5, 0], [252, 1], [8, 0], [298, 1], [2, 0], [640, 1]]
+Filled    : [[208, 1], [8, 1], [52, 1], [10, 1], [27, 1], [5, 1], [252, 1], [8, 1], [298, 1], [2, 1], [640, 1]]
+Rectified : [[1510, 1]]
+18 of 102 done Raw Signal: [[146, 1], [16, 0], [143, 1], [5, 0], [1200, 1]]
+Filled    : [[146, 1], [16, 1], [143, 1], [5, 1], [1200, 1]]
+Rectified : [[1510, 1]]
+19 of 102 done Raw Signal: [[140, 1], [7, 0], [19, 1], [5, 0], [15, 1], [3, 0], [3, 1], [2, 0], [1316, 1]]
+Filled    : [[140, 1], [7, 1], [19, 1], [5, 1], [15, 1], [3, 1], [3, 1], [2, 1], [1316, 1]]
+Rectified : [[1510, 1]]
+20 of 102 done Raw Signal: [[122, 1], [7, 0], [42, 1], [46, 0], [1293, 1]]
+Filled    : [[122, 1], [7, 1], [42, 1], [46, 1], [1293, 1]]
+Rectified : [[171, 1], [46, 0], [1293, 1]]
+21 of 102 done Raw Signal: [[189, 1], [5, 0], [29, 1], [6, 0], [1, 1], [4, 0], [16, 1], [1, 0], [256, 1], [4, 0], [999, 1]]
+Filled    : [[189, 1], [5, 1], [29, 1], [6, 1], [1, 1], [4, 1], [16, 1], [1, 1], [256, 1], [4, 1], [999, 1]]
+Rectified : [[1510, 1]]
+22 of 102 done Raw Signal: [[186, 1], [19, 0], [12, 1], [4, 0], [47, 1], [10, 0], [1232, 1]]
+Filled    : [[186, 1], [19, 1], [12, 1], [4, 1], [47, 1], [10, 1], [1232, 1]]
+Rectified : [[1510, 1]]
+23 of 102 done Raw Signal: [[139, 1], [20, 0], [40, 1], [2, 0], [3, 1], [1306, 0]]
+Filled    : [[139, 1], [20, 1], [40, 1], [2, 1], [3, 1], [1306, 0]]
+Rectified : [[204, 1], [1306, 0]]
+24 of 102 done Raw Signal: [[95, 1], [20, 0], [74, 1], [288, 0], [5, 1], [57, 0], [971, 1]]
+Filled    : [[95, 1], [20, 1], [74, 1], [288, 0], [5, 1], [57, 0], [971, 1]]
+Rectified : [[189, 1], [350, 0], [971, 1]]
+25 of 102 done Raw Signal: [[254, 1], [5, 0], [1251, 1]]
+Filled    : [[254, 1], [5, 1], [1251, 1]]
+Rectified : [[1510, 1]]
+26 of 102 done Raw Signal: [[108, 1], [24, 0], [20, 1], [7, 0], [17, 1], [41, 0], [379, 1], [13, 0], [901, 1]]
+Filled    : [[108, 1], [24, 1], [20, 1], [7, 1], [17, 1], [41, 1], [379, 1], [13, 1], [901, 1]]
+Rectified : [[176, 1], [41, 0], [1293, 1]]
+27 of 102 done Raw Signal: [[143, 1], [9, 0], [1358, 1]]
+Filled    : [[143, 1], [9, 1], [1358, 1]]
+Rectified : [[1510, 1]]
+28 of 102 done Raw Signal: [[80, 1], [12, 0], [93, 1], [10, 0], [1315, 1]]
+Filled    : [[80, 1], [12, 1], [93, 1], [10, 1], [1315, 1]]
+Rectified : [[1510, 1]]
+29 of 102 done Raw Signal: [[170, 1], [8, 0], [1332, 1]]
+Filled    : [[170, 1], [8, 1], [1332, 1]]
+Rectified : [[1510, 1]]
+30 of 102 done Raw Signal: [[153, 1], [11, 0], [17, 1], [1329, 0]]
+Filled    : [[153, 1], [11, 1], [17, 1], [1329, 0]]
+Rectified : [[181, 1], [1329, 0]]
+31 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+32 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+33 of 102 done Raw Signal: [[143, 1], [19, 0], [14, 1], [5, 0], [1329, 1]]
+Filled    : [[143, 1], [19, 1], [14, 1], [5, 1], [1329, 1]]
+Rectified : [[1510, 1]]
+34 of 102 done Raw Signal: [[171, 1], [1339, 0]]
+Filled    : [[171, 1], [1339, 0]]
+Rectified : [[171, 1], [1339, 0]]
+35 of 102 done Raw Signal: [[95, 1], [20, 0], [24, 1], [20, 0], [11, 1], [11, 0], [4, 1], [13, 0], [3, 1], [20, 0], [1289, 1]]
+Filled    : [[95, 1], [20, 1], [24, 1], [20, 1], [11, 1], [11, 1], [4, 1], [13, 1], [3, 1], [20, 1], [1289, 1]]
+Rectified : [[139, 1], [82, 0], [1289, 1]]
+36 of 102 done Raw Signal: [[95, 1], [7, 0], [443, 1], [4, 0], [961, 1]]
+Filled    : [[95, 1], [7, 1], [443, 1], [4, 1], [961, 1]]
+Rectified : [[1510, 1]]
+37 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+38 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+39 of 102 done Raw Signal: [[192, 1], [2, 0], [368, 1], [8, 0], [940, 1]]
+Filled    : [[192, 1], [2, 1], [368, 1], [8, 1], [940, 1]]
+Rectified : [[1510, 1]]
+40 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+41 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+42 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+43 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+44 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+45 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+46 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+47 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+48 of 102 done Raw Signal: [[171, 1], [9, 0], [257, 1], [8, 0], [1065, 1]]
+Filled    : [[171, 1], [9, 1], [257, 1], [8, 1], [1065, 1]]
+Rectified : [[1510, 1]]
+49 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+50 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+51 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+52 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+53 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+54 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+55 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+56 of 102 done Raw Signal: [[188, 1], [1322, 0]]
+Filled    : [[188, 1], [1322, 0]]
+Rectified : [[188, 1], [1322, 0]]
+57 of 102 done Raw Signal: [[144, 1], [3, 0], [1363, 1]]
+Filled    : [[144, 1], [3, 1], [1363, 1]]
+Rectified : [[1510, 1]]
+58 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+59 of 102 done Raw Signal: [[160, 1], [7, 0], [10, 1], [6, 0], [5, 1], [10, 0], [1, 1], [15, 0], [280, 1], [2, 0], [49, 1], [4, 0], [961, 1]]
+Filled    : [[160, 1], [7, 1], [10, 1], [6, 1], [5, 1], [10, 1], [1, 1], [15, 1], [280, 1], [2, 1], [49, 1], [4, 1], [961, 1]]
+Rectified : [[1510, 1]]
+60 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+61 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+62 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+63 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+64 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+65 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+66 of 102 done Raw Signal: [[169, 1], [15, 0], [9, 1], [6, 0], [4, 1], [6, 0], [7, 1], [6, 0], [8, 1], [7, 0], [9, 1], [4, 0], [10, 1], [3, 0], [10, 1], [4, 0], [10, 1], [3, 0], [10, 1], [4, 0], [10, 1], [3, 0], [11, 1], [3, 0], [10, 1], [3, 0], [10, 1], [3, 0], [11, 1], [2, 0], [11, 1], [3, 0], [11, 1], [2, 0], [11, 1], [2, 0], [25, 1], [1, 0], [1074, 1]]
+Filled    : [[169, 1], [15, 1], [9, 1], [6, 1], [4, 1], [6, 1], [7, 1], [6, 1], [8, 1], [7, 1], [9, 1], [4, 1], [10, 1], [3, 1], [10, 1], [4, 1], [10, 1], [3, 1], [10, 1], [4, 1], [10, 1], [3, 1], [11, 1], [3, 1], [10, 1], [3, 1], [10, 1], [3, 1], [11, 1], [2, 1], [11, 1], [3, 1], [11, 1], [2, 1], [11, 1], [2, 1], [25, 1], [1, 1], [1074, 1]]
+Rectified : [[1510, 1]]
+67 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+68 of 102 done Raw Signal: [[467, 1], [1043, 0]]
+Filled    : [[467, 1], [1043, 0]]
+Rectified : [[467, 1], [1043, 0]]
+69 of 102 done Raw Signal: [[173, 1], [6, 0], [5, 1], [13, 0], [336, 1], [5, 0], [972, 1]]
+Filled    : [[173, 1], [6, 1], [5, 1], [13, 1], [336, 1], [5, 1], [972, 1]]
+Rectified : [[1510, 1]]
+70 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+71 of 102 done Raw Signal: [[431, 1], [5, 0], [1074, 1]]
+Filled    : [[431, 1], [5, 1], [1074, 1]]
+Rectified : [[1510, 1]]
+72 of 102 done Raw Signal: [[166, 1], [1344, 0]]
+Filled    : [[166, 1], [1344, 0]]
+Rectified : [[166, 1], [1344, 0]]
+73 of 102 done Raw Signal: [[152, 1], [7, 0], [11, 1], [8, 0], [13, 1], [1319, 0]]
+Filled    : [[152, 1], [7, 1], [11, 1], [8, 1], [13, 1], [1319, 0]]
+Rectified : [[191, 1], [1319, 0]]
+74 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+75 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+76 of 102 done Raw Signal: [[185, 1], [1325, 0]]
+Filled    : [[185, 1], [1325, 0]]
+Rectified : [[185, 1], [1325, 0]]
+77 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+78 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+79 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+80 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+81 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+82 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+83 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+84 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+85 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+86 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+87 of 102 done Raw Signal: [[153, 1], [14, 0], [4, 1], [7, 0], [4, 1], [22, 0], [4, 1], [11, 0], [8, 1], [6, 0], [2, 1], [8, 0], [11, 1], [5, 0], [1251, 1]]
+Filled    : [[153, 1], [14, 1], [4, 1], [7, 1], [4, 1], [22, 1], [4, 1], [11, 1], [8, 1], [6, 1], [2, 1], [8, 1], [11, 1], [5, 1], [1251, 1]]
+Rectified : [[153, 1], [90, 0], [1267, 1]]
+88 of 102 done Raw Signal: [[188, 1], [4, 0], [1318, 1]]
+Filled    : [[188, 1], [4, 1], [1318, 1]]
+Rectified : [[1510, 1]]
+89 of 102 done Raw Signal: [[1510, 1]]
+Filled    : [[1510, 1]]
+Rectified : [[1510, 1]]
+90 of 102 done Raw Signal: [[189, 0], [6, 1], [11, 0], [72, 1], [7, 0], [1, 1], [8, 0], [4, 1], [3, 0], [1209, 1]]
+Filled    : [[189, 0], [6, 1], [11, 1], [72, 1], [7, 1], [1, 1], [8, 1], [4, 1], [3, 1], [1209, 1]]
+Rectified : [[206, 0], [1304, 1]]
+91 of 102 done Raw Signal: [[201, 0], [17, 1], [8, 0], [8, 1], [6, 0], [8, 1], [5, 0], [9, 1], [5, 0], [9, 1], [5, 0], [9, 1], [5, 0], [10, 1], [2, 0], [11, 1], [2, 0], [12, 1], [2, 0], [12, 1], [4, 0], [11, 1], [3, 0], [13, 1], [1, 0], [1132, 1]]
+Filled    : [[201, 0], [17, 1], [8, 1], [8, 1], [6, 1], [8, 1], [5, 1], [9, 1], [5, 1], [9, 1], [5, 1], [9, 1], [5, 1], [10, 1], [2, 1], [11, 1], [2, 1], [12, 1], [2, 1], [12, 1], [4, 1], [11, 1], [3, 1], [13, 1], [1, 1], [1132, 1]]
+Rectified : [[201, 0], [1309, 1]]
+92 of 102 done Raw Signal: [[212, 0], [9, 1], [3, 0], [6, 1], [4, 0], [2, 1], [2, 0], [193, 1], [5, 0], [11, 1], [2, 0], [7, 1], [25, 0], [26, 1], [4, 0], [60, 1], [12, 0], [156, 1], [1, 0], [770, 1]]
+Filled    : [[212, 0], [9, 1], [3, 1], [6, 1], [4, 1], [2, 1], [2, 1], [193, 1], [5, 1], [11, 1], [2, 1], [7, 1], [25, 1], [26, 1], [4, 1], [60, 1], [12, 1], [156, 1], [1, 1], [770, 1]]
+Rectified : [[212, 0], [1298, 1]]
+93 of 102 done Raw Signal: [[214, 0], [1, 1], [17, 0], [11, 1], [8, 0], [5, 1], [1, 0], [38, 1], [6, 0], [45, 1], [8, 0], [85, 1], [10, 0], [28, 1], [17, 0], [8, 1], [15, 0], [9, 1], [984, 0]]
+Filled    : [[214, 0], [1, 1], [17, 1], [11, 1], [8, 1], [5, 1], [1, 1], [38, 1], [6, 1], [45, 1], [8, 1], [85, 1], [10, 1], [28, 1], [17, 1], [8, 1], [15, 1], [9, 1], [984, 0]]
+Rectified : [[232, 0], [245, 1], [1033, 0]]
+94 of 102 done Raw Signal: [[219, 0], [2, 1], [11, 0], [1, 1], [13, 0], [7, 1], [33, 0], [181, 1], [1043, 0]]
+Filled    : [[219, 0], [2, 1], [11, 1], [1, 1], [13, 1], [7, 1], [33, 1], [181, 1], [1043, 0]]
+Rectified : [[286, 0], [181, 1], [1043, 0]]
+95 of 102 done Raw Signal: [[219, 0], [2, 1], [4, 0], [3, 1], [10, 0], [7, 1], [8, 0], [1257, 1]]
+Filled    : [[219, 0], [2, 1], [4, 1], [3, 1], [10, 1], [7, 1], [8, 1], [1257, 1]]
+Rectified : [[253, 0], [1257, 1]]
+96 of 102 done Raw Signal: [[219, 0], [7, 1], [10, 0], [7, 1], [10, 0], [7, 1], [12, 0], [1, 1], [4, 0], [3, 1], [10, 0], [7, 1], [8, 0], [7, 1], [9, 0], [7, 1], [8, 0], [8, 1], [8, 0], [7, 1], [8, 0], [8, 1], [7, 0], [8, 1], [7, 0], [8, 1], [7, 0], [8, 1], [7, 0], [7, 1], [7, 0], [8, 1], [7, 0], [8, 1], [7, 0], [8, 1], [6, 0], [8, 1], [6, 0], [8, 1], [7, 0], [8, 1], [5, 0], [6, 1], [6, 0], [11, 1], [3, 0], [12, 1], [2, 0], [12, 1], [2, 0], [24, 1], [3, 0], [11, 1], [3, 0], [12, 1], [1, 0], [39, 1], [1, 0], [13, 1], [1, 0], [821, 1]]
+Filled    : [[219, 0], [7, 1], [10, 1], [7, 1], [10, 1], [7, 1], [12, 1], [1, 1], [4, 1], [3, 1], [10, 1], [7, 1], [8, 1], [7, 1], [9, 1], [7, 1], [8, 1], [8, 1], [8, 1], [7, 1], [8, 1], [8, 1], [7, 1], [8, 1], [7, 1], [8, 1], [7, 1], [8, 1], [7, 1], [7, 1], [7, 1], [8, 1], [7, 1], [8, 1], [7, 1], [8, 1], [6, 1], [8, 1], [6, 1], [8, 1], [7, 1], [8, 1], [5, 1], [6, 1], [6, 1], [11, 1], [3, 1], [12, 1], [2, 1], [12, 1], [2, 1], [24, 1], [3, 1], [11, 1], [3, 1], [12, 1], [1, 1], [39, 1], [1, 1], [13, 1], [1, 1], [821, 1]]
+Rectified : [[367, 0], [1143, 1]]
+97 of 102 done Raw Signal: [[237, 0], [1, 1], [3, 0], [7, 1], [3, 0], [12, 1], [2, 0], [11, 1], [2, 0], [235, 1], [5, 0], [350, 1], [2, 0], [640, 1]]
+Filled    : [[237, 0], [1, 1], [3, 1], [7, 1], [3, 1], [12, 1], [2, 1], [11, 1], [2, 1], [235, 1], [5, 1], [350, 1], [2, 1], [640, 1]]
+Rectified : [[241, 0], [1269, 1]]
+98 of 102 done Raw Signal: [[288, 0], [7, 1], [10, 0], [6, 1], [12, 0], [4, 1], [12, 0], [6, 1], [11, 0], [6, 1], [10, 0], [6, 1], [11, 0], [6, 1], [10, 0], [7, 1], [9, 0], [7, 1], [9, 0], [7, 1], [9, 0], [6, 1], [9, 0], [7, 1], [8, 0], [7, 1], [8, 0], [7, 1], [9, 0], [7, 1], [8, 0], [7, 1], [8, 0], [7, 1], [7, 0], [7, 1], [7, 0], [7, 1], [8, 0], [7, 1], [8, 0], [7, 1], [8, 0], [7, 1], [8, 0], [7, 1], [8, 0], [7, 1], [7, 0], [8, 1], [7, 0], [7, 1], [7, 0], [8, 1], [7, 0], [7, 1], [7, 0], [8, 1], [6, 0], [8, 1], [6, 0], [8, 1], [6, 0], [8, 1], [7, 0], [8, 1], [5, 0], [9, 1], [5, 0], [9, 1], [5, 0], [8, 1], [6, 0], [8, 1], [6, 0], [8, 1], [5, 0], [9, 1], [5, 0], [9, 1], [5, 0], [9, 1], [4, 0], [9, 1], [5, 0], [9, 1], [5, 0], [9, 1], [4, 0], [9, 1], [5, 0], [9, 1], [4, 0], [10, 1], [3, 0], [10, 1], [4, 0], [9, 1], [4, 0], [10, 1], [3, 0], [10, 1], [4, 0], [9, 1], [4, 0], [10, 1], [3, 0], [10, 1], [3, 0], [11, 1], [2, 0], [11, 1], [3, 0], [10, 1], [3, 0], [11, 1], [2, 0], [11, 1], [2, 0], [11, 1], [2, 0], [12, 1], [1, 0], [12, 1], [1, 0], [332, 1]]
+Filled    : [[288, 0], [7, 1], [10, 1], [6, 1], [12, 1], [4, 1], [12, 1], [6, 1], [11, 1], [6, 1], [10, 1], [6, 1], [11, 1], [6, 1], [10, 1], [7, 1], [9, 1], [7, 1], [9, 1], [7, 1], [9, 1], [6, 1], [9, 1], [7, 1], [8, 1], [7, 1], [8, 1], [7, 1], [9, 1], [7, 1], [8, 1], [7, 1], [8, 1], [7, 1], [7, 1], [7, 1], [7, 1], [7, 1], [8, 1], [7, 1], [8, 1], [7, 1], [8, 1], [7, 1], [8, 1], [7, 1], [8, 1], [7, 1], [7, 1], [8, 1], [7, 1], [7, 1], [7, 1], [8, 1], [7, 1], [7, 1], [7, 1], [8, 1], [6, 1], [8, 1], [6, 1], [8, 1], [6, 1], [8, 1], [7, 1], [8, 1], [5, 1], [9, 1], [5, 1], [9, 1], [5, 1], [8, 1], [6, 1], [8, 1], [6, 1], [8, 1], [5, 1], [9, 1], [5, 1], [9, 1], [5, 1], [9, 1], [4, 1], [9, 1], [5, 1], [9, 1], [5, 1], [9, 1], [4, 1], [9, 1], [5, 1], [9, 1], [4, 1], [10, 1], [3, 1], [10, 1], [4, 1], [9, 1], [4, 1], [10, 1], [3, 1], [10, 1], [4, 1], [9, 1], [4, 1], [10, 1], [3, 1], [10, 1], [3, 1], [11, 1], [2, 1], [11, 1], [3, 1], [10, 1], [3, 1], [11, 1], [2, 1], [11, 1], [2, 1], [11, 1], [2, 1], [12, 1], [1, 1], [12, 1], [1, 1], [332, 1]]
+Rectified : [[661, 0], [849, 1]]
+99 of 102 done Raw Signal: [[301, 0], [138, 1], [10, 0], [33, 1], [12, 0], [8, 1], [15, 0], [9, 1], [13, 0], [4, 1], [13, 0], [14, 1], [940, 0]]
+Filled    : [[301, 0], [138, 1], [10, 1], [33, 1], [12, 1], [8, 1], [15, 1], [9, 1], [13, 1], [4, 1], [13, 1], [14, 1], [940, 0]]
+Rectified : [[301, 0], [181, 1], [1028, 0]]
+100 of 102 done Raw Signal: [[380, 0], [120, 1], [9, 0], [4, 1], [5, 0], [13, 1], [25, 0], [7, 1], [17, 0], [37, 1], [11, 0], [39, 1], [9, 0], [834, 1]]
+Filled    : [[380, 0], [120, 1], [9, 1], [4, 1], [5, 1], [13, 1], [25, 1], [7, 1], [17, 1], [37, 1], [11, 1], [39, 1], [9, 1], [834, 1]]
+Rectified : [[380, 0], [151, 1], [49, 0], [930, 1]]
+101 of 102 done Raw Signal: [[473, 0], [21, 1], [6, 0], [21, 1], [14, 0], [25, 1], [4, 0], [7, 1], [12, 0], [13, 1], [13, 0], [901, 1]]
+Filled    : [[473, 0], [21, 1], [6, 1], [21, 1], [14, 1], [25, 1], [4, 1], [7, 1], [12, 1], [13, 1], [13, 1], [901, 1]]
+Rectified : [[473, 0], [1037, 1]]
+102 of 102 done Raw Signal: [[543, 0], [13, 1], [22, 0], [1, 1], [11, 0], [72, 1], [5, 0], [843, 1]]
+Filled    : [[543, 0], [13, 1], [22, 1], [1, 1], [11, 1], [72, 1], [5, 1], [843, 1]]
+Rectified : [[590, 0], [920, 1]]
+
+Isomer   0       (H2) : Max Life 1510 (Boring!)
+Isomer   1      (CH4) : Max Life 1510 (Boring!)
+Isomer   2      (H3N) : Max Life 1510 (Boring!)
+Isomer   3       (CO) : Max Life 1510 (Boring!)
+Isomer   4      (H2O) : Max Life 1510 (Boring!)
+Isomer   5     (CH5N) : Max Life 1510 (Interesting; color blue2)
+Isomer   6    (CH3NO) : Max Life 1510 (Interesting; color orange3)
+Isomer  89     (CHO2) : Max Life 245 (Interesting; color purple)
+Isomer  93        (O) : Max Life 181 (Interesting; color green2)
+Isomer 116        (H) : Max Life 181 (Interesting; color orange)
+Isomer 121     (C2H2) : Max Life 930 (Interesting; color mauve)
+Attempting to extract chemical reactions:
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 169)] [(0, 169)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Molecular formula: CH5N atoms: 30,32,34,67-69,107 frames: [(0, 1510)]
+Scanning backward, now on frame 0  - scanned past start of trajectory!
+Scanning forward, now on frame 1509  - scanned past end of trajectory!
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 175)] [(0, 175)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Molecular formula: CH3NO atoms: 52-54,77,84-85 frames: [(0, 1510)]
+Scanning backward, now on frame 0  - scanned past start of trajectory!
+Scanning forward, now on frame 1509  - scanned past end of trajectory!
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 171), (217, 1510)] [(0, 171), (171, 217), (217, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 204)] [(0, 204)]
+Original and Condensed Segments: [(0, 189), (539, 1510)] [(0, 189), (539, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 176), (217, 1510)] [(0, 176), (176, 217), (217, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 181)] [(0, 181)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 171)] [(0, 171)]
+Original and Condensed Segments: [(0, 139), (221, 1510)] [(0, 139), (221, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 188)] [(0, 188)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 467)] [(0, 467)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 166)] [(0, 166)]
+Original and Condensed Segments: [(0, 191)] [(0, 191)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 185)] [(0, 185)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 153), (243, 1510)] [(0, 153), (243, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(0, 1510)] [(0, 1510)]
+Original and Condensed Segments: [(206, 1510)] [(206, 1510)]
+Original and Condensed Segments: [(201, 1510)] [(201, 1510)]
+Original and Condensed Segments: [(212, 1510)] [(212, 1510)]
+Original and Condensed Segments: [(232, 477)] [(232, 477)]
+Molecular formula: CHO2 atoms: 70-71,93,106 frames: [(232, 477)]
+The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,106
+Scanning backward, now on frame 220 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,106
+Scanning backward, now on frame 210 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,106
+Scanning backward, now on frame 200 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,106
+Scanning backward, now on frame 190 Scanning backward, now on frame 180 Whole molecules in frame 244 have atoms 70-71,93,106 ; pulled molecules from frame 170 and got 70-71,93,105-106  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 244 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 254 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 264 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 274 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 284 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 294 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 304 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 314 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 324 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 334 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 344 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 354 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 364 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 374 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 384 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 394 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 404 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 414 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 424 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 434 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 444 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 454 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 464 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106, input = 70-71,93,105-106
+Scanning forward, now on frame 474 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,105-106
+Scanning forward, now on frame 484 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,105-106
+Scanning forward, now on frame 494 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,105-106
+Scanning forward, now on frame 504 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,105-106
+Scanning forward, now on frame 514 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,105-106
+Scanning forward, now on frame 524 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,105-106
+Scanning forward, now on frame 534 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71, input = 70-71,93,105-106
+Scanning forward, now on frame 544 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71, input = 70-71,93,105-106
+Scanning forward, now on frame 554 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71, input = 70-71,93,105-106
+Scanning forward, now on frame 564 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71, input = 70-71,93,105-106
+Scanning forward, now on frame 574 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71, input = 70-71,93,105-106
+Scanning forward, now on frame 584 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106,186, input = 70-71,93,105-106
+Scanning forward, now on frame 594 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106,186, input = 70-71,93,105-106
+Scanning forward, now on frame 604 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106,186, input = 70-71,93,105-106
+Scanning forward, now on frame 614 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106,186, input = 70-71,93,105-106
+Scanning forward, now on frame 624 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106,186, input = 70-71,93,105-106
+Scanning forward, now on frame 634 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106,186, input = 70-71,93,105-106
+Scanning forward, now on frame 644 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106,186, input = 70-71,93,105-106
+Scanning forward, now on frame 654 Scanning forward, now on frame 664 Whole molecules in frame 220 have atoms 70-71,93,105-106 ; pulled molecules from frame 674 and got 70-71,93,100,105-106,186  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,100,105-106,186
+Scanning backward, now on frame 220 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,100,105-106,186
+Scanning backward, now on frame 210 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,100,105-106,186
+Scanning backward, now on frame 200 The accumulated atoms are not a superset of the input atoms - accumulated = 186-187, input = 70-71,93,100,105-106,186
+Scanning backward, now on frame 190 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,105-106,186-187, input = 70-71,93,100,105-106,186
+Scanning backward, now on frame 180 Scanning backward, now on frame 170 Whole molecules in frame 244 have atoms 70-71,93,100,105-106,186 ; pulled molecules from frame 160 and got 70-71,93,100-106,186-187  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-185,187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 244 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-185,187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 254 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-185,187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 264 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-185,187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 274 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-185,187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 284 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-185,187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 294 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 304 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 314 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 324 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 334 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 344 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 354 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 364 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 374 The accumulated atoms are not a superset of the input atoms - accumulated = 29,70-71,93,101-104,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 384 The accumulated atoms are not a superset of the input atoms - accumulated = 29,70-71,93,101-104,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 394 The accumulated atoms are not a superset of the input atoms - accumulated = 29,70-71,93,101-104,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 404 The accumulated atoms are not a superset of the input atoms - accumulated = 29,70-71,93,101-104,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 414 The accumulated atoms are not a superset of the input atoms - accumulated = 29,70-71,93,101-104,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 424 The accumulated atoms are not a superset of the input atoms - accumulated = 29,70-71,93,101-104,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 434 The accumulated atoms are not a superset of the input atoms - accumulated = 29,70-71,93,101-104,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 444 The accumulated atoms are not a superset of the input atoms - accumulated = 29,70-71,93,101-104,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 454 The accumulated atoms are not a superset of the input atoms - accumulated = 29,70-71,93,101-104,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 464 The accumulated atoms are not a superset of the input atoms - accumulated = 29,70-71,93,101-104,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 474 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-185,187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 484 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-185,187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 494 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-185,187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 504 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-185,187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 514 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-185,187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 524 The accumulated atoms are not a superset of the input atoms - accumulated = 103,184-185,187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 534 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,103,184-185,187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 544 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,103,184-185,187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 554 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,103,184-185,187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 564 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,103,184-185,187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 574 The accumulated atoms are not a superset of the input atoms - accumulated = 29,70-71,101-104,184-185,187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 584 The accumulated atoms are not a superset of the input atoms - accumulated = 29,70-71,93,101-104,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 594 The accumulated atoms are not a superset of the input atoms - accumulated = 29,70-71,93,101-104,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 604 The accumulated atoms are not a superset of the input atoms - accumulated = 29,70-71,93,101-104,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 614 The accumulated atoms are not a superset of the input atoms - accumulated = 29,70-71,93,101-104,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 624 The accumulated atoms are not a superset of the input atoms - accumulated = 29,70-71,93,101-104,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 634 The accumulated atoms are not a superset of the input atoms - accumulated = 29,70-71,93,101-104,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 644 The accumulated atoms are not a superset of the input atoms - accumulated = 29,70-71,93,101-104,106,184-187, input = 70-71,93,100-106,186-187
+Scanning forward, now on frame 654 Scanning forward, now on frame 664 Whole molecules in frame 220 have atoms 70-71,93,100-106,186-187 ; pulled molecules from frame 674 and got 29,70-71,93,100-106,184-187  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = 185,187, input = 29,70-71,93,100-106,184-187
+Scanning backward, now on frame 220 The accumulated atoms are not a superset of the input atoms - accumulated = 185,187, input = 29,70-71,93,100-106,184-187
+Scanning backward, now on frame 210 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,70-71,93,100-106,184-187
+Scanning backward, now on frame 200 The accumulated atoms are not a superset of the input atoms - accumulated = 186-187, input = 29,70-71,93,100-106,184-187
+Scanning backward, now on frame 190 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,105-106,186-187, input = 29,70-71,93,100-106,184-187
+Scanning backward, now on frame 180 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,100-106,186-187, input = 29,70-71,93,100-106,184-187
+Scanning backward, now on frame 170 Scanning backward, now on frame 160 Whole molecules in frame 244 have atoms 29,70-71,93,100-106,184-187 ; pulled molecules from frame 150 and got 28-29,70-71,93,100-106,184-187  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-185,187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 244 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-185,187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 254 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-185,187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 264 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-185,187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 274 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-185,187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 284 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,184-185,187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 294 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 304 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 314 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 324 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 334 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 344 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 354 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 364 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 374 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 384 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 394 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 404 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 414 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 424 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 434 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 444 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 454 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 464 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 474 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 484 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 494 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 504 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 514 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 524 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184-185,187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 534 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,103,176-177,184-185,187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 544 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,103,176-177,184-185,187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 554 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,103,176-177,184-185,187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 564 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,103,176-177,184-185,187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 574 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,101-104,176-177,184-185,187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 584 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 594 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 604 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 614 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 624 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 634 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 644 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-187, input = 28-29,70-71,93,100-106,184-187
+Scanning forward, now on frame 654 Scanning forward, now on frame 664 Whole molecules in frame 220 have atoms 28-29,70-71,93,100-106,184-187 ; pulled molecules from frame 674 and got 28-29,70-71,93,100-106,176-177,184-187  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = 176-177,185,187, input = 28-29,70-71,93,100-106,176-177,184-187
+Scanning backward, now on frame 220 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177,185,187, input = 28-29,70-71,93,100-106,176-177,184-187
+Scanning backward, now on frame 210 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177, input = 28-29,70-71,93,100-106,176-177,184-187
+Scanning backward, now on frame 200 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177,186-187, input = 28-29,70-71,93,100-106,176-177,184-187
+Scanning backward, now on frame 190 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,105-106,176-177,186-187, input = 28-29,70-71,93,100-106,176-177,184-187
+Scanning backward, now on frame 180 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,100-106,176-177,186-187, input = 28-29,70-71,93,100-106,176-177,184-187
+Scanning backward, now on frame 170 Scanning backward, now on frame 160 Whole molecules in frame 244 have atoms 28-29,70-71,93,100-106,176-177,184-187 ; pulled molecules from frame 150 and got 28-29,70-71,93,100-106,176-177,184-187  - success!
+Removing spectator molecule, graph id 70,71:3 (CO)
+Reaction found: formula 3H2+CH4+CO+H2O -> 3H2+2H2O+C2H2 atoms 28-29,93,100-106,176-177,184-187 frames 150 through 673
+The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,106
+Scanning forward, now on frame 489 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,106
+Scanning forward, now on frame 499 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,106
+Scanning forward, now on frame 509 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,106
+Scanning forward, now on frame 519 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,106
+Scanning forward, now on frame 529 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71, input = 70-71,93,106
+Scanning forward, now on frame 539 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71, input = 70-71,93,106
+Scanning forward, now on frame 549 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71, input = 70-71,93,106
+Scanning forward, now on frame 559 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71, input = 70-71,93,106
+Scanning forward, now on frame 569 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71, input = 70-71,93,106
+Scanning forward, now on frame 579 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71, input = 70-71,93,106
+Scanning forward, now on frame 589 Scanning forward, now on frame 599 Whole molecules in frame 465 have atoms 70-71,93,106 ; pulled molecules from frame 609 and got 70-71,93,106,186  - expanding the system
+Scanning backward, now on frame 465 Whole molecules in frame 489 have atoms 70-71,93,106,186 ; pulled molecules from frame 455 and got 70-71,93,106,186  - success!
+Reaction found: formula CHO2+H -> CO+H2O atoms 70-71,93,106,186 frames 455 through 608
+Original and Condensed Segments: [(286, 467)] [(286, 467)]
+Molecular formula: O atoms: 28 frames: [(286, 467)]
+The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28
+Scanning backward, now on frame 274 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28
+Scanning backward, now on frame 264 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28
+Scanning backward, now on frame 254 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28
+Scanning backward, now on frame 244 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28
+Scanning backward, now on frame 234 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28
+Scanning backward, now on frame 224 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28
+Scanning backward, now on frame 214 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28
+Scanning backward, now on frame 204 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28
+Scanning backward, now on frame 194 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28
+Scanning backward, now on frame 184 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28
+Scanning backward, now on frame 174 Scanning backward, now on frame 164 Whole molecules in frame 298 have atoms 28 ; pulled molecules from frame 154 and got 28-29  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = 28, input = 28-29
+Scanning forward, now on frame 298 The accumulated atoms are not a superset of the input atoms - accumulated = 28, input = 28-29
+Scanning forward, now on frame 308 The accumulated atoms are not a superset of the input atoms - accumulated = 28, input = 28-29
+Scanning forward, now on frame 318 The accumulated atoms are not a superset of the input atoms - accumulated = 28, input = 28-29
+Scanning forward, now on frame 328 The accumulated atoms are not a superset of the input atoms - accumulated = 28, input = 28-29
+Scanning forward, now on frame 338 The accumulated atoms are not a superset of the input atoms - accumulated = 28, input = 28-29
+Scanning forward, now on frame 348 The accumulated atoms are not a superset of the input atoms - accumulated = 28, input = 28-29
+Scanning forward, now on frame 358 The accumulated atoms are not a superset of the input atoms - accumulated = 28, input = 28-29
+Scanning forward, now on frame 368 The accumulated atoms are not a superset of the input atoms - accumulated = 28, input = 28-29
+Scanning forward, now on frame 378 Scanning forward, now on frame 388 Whole molecules in frame 274 have atoms 28-29 ; pulled molecules from frame 398 and got 28-29,101-102,104  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28-29,101-102,104
+Scanning backward, now on frame 274 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28-29,101-102,104
+Scanning backward, now on frame 264 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28-29,101-102,104
+Scanning backward, now on frame 254 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28-29,101-102,104
+Scanning backward, now on frame 244 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28-29,101-102,104
+Scanning backward, now on frame 234 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28-29,101-102,104
+Scanning backward, now on frame 224 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28-29,101-102,104
+Scanning backward, now on frame 214 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28-29,101-102,104
+Scanning backward, now on frame 204 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28-29,101-102,104
+Scanning backward, now on frame 194 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28-29,101-102,104
+Scanning backward, now on frame 184 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 28-29,101-102,104
+Scanning backward, now on frame 174 Scanning backward, now on frame 164 Whole molecules in frame 298 have atoms 28-29,101-102,104 ; pulled molecules from frame 154 and got 28-29,100-104  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,184, input = 28-29,100-104
+Scanning forward, now on frame 298 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,184, input = 28-29,100-104
+Scanning forward, now on frame 308 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,184, input = 28-29,100-104
+Scanning forward, now on frame 318 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,184, input = 28-29,100-104
+Scanning forward, now on frame 328 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,184, input = 28-29,100-104
+Scanning forward, now on frame 338 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,184, input = 28-29,100-104
+Scanning forward, now on frame 348 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,184, input = 28-29,100-104
+Scanning forward, now on frame 358 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,184, input = 28-29,100-104
+Scanning forward, now on frame 368 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,184, input = 28-29,100-104
+Scanning forward, now on frame 378 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,184, input = 28-29,100-104
+Scanning forward, now on frame 388 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,184, input = 28-29,100-104
+Scanning forward, now on frame 398 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,184, input = 28-29,100-104
+Scanning forward, now on frame 408 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,184, input = 28-29,100-104
+Scanning forward, now on frame 418 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,184, input = 28-29,100-104
+Scanning forward, now on frame 428 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,184, input = 28-29,100-104
+Scanning forward, now on frame 438 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,184, input = 28-29,100-104
+Scanning forward, now on frame 448 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,184, input = 28-29,100-104
+Scanning forward, now on frame 458 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184, input = 28-29,100-104
+Scanning forward, now on frame 468 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 478 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 488 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 498 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 508 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 518 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 528 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 538 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 548 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 558 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 568 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 578 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 588 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 598 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 608 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 618 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 628 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 638 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 648 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 658 Scanning forward, now on frame 668 Whole molecules in frame 274 have atoms 28-29,100-104 ; pulled molecules from frame 678 and got 28-29,100-105,176-177,184  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = 103,176-177,184, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 274 The accumulated atoms are not a superset of the input atoms - accumulated = 103,176-177,184, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 264 The accumulated atoms are not a superset of the input atoms - accumulated = 103,176-177,184, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 254 The accumulated atoms are not a superset of the input atoms - accumulated = 103,176-177,184, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 244 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 234 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 224 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 214 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 204 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 194 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 184 The accumulated atoms are not a superset of the input atoms - accumulated = 93,105-106,176-177, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 174 Scanning backward, now on frame 164 Whole molecules in frame 298 have atoms 28-29,100-105,176-177,184 ; pulled molecules from frame 154 and got 28-29,93,100-106,176-177,184-185  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 298 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 308 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 318 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 328 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 338 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 348 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 358 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 368 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 378 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 388 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 398 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 408 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 418 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 428 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 438 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 448 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 458 The accumulated atoms are not a superset of the input atoms - accumulated = 29,70-71,93,101-104,106,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 468 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 478 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 488 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 498 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 508 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 518 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 528 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 538 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 548 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 558 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 568 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 578 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 588 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 598 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 608 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 618 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 628 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 638 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 648 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 658 Scanning forward, now on frame 668 Whole molecules in frame 274 have atoms 28-29,93,100-106,176-177,184-185 ; pulled molecules from frame 678 and got 28-29,93,100-106,176-177,184-187  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 274 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 264 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 254 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 244 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106,176-177,185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 234 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177,185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 224 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177,185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 214 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177,185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 204 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 194 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177,186-187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 184 The accumulated atoms are not a superset of the input atoms - accumulated = 93,105-106,176-177,186-187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 174 Scanning backward, now on frame 164 Whole molecules in frame 298 have atoms 28-29,93,100-106,176-177,184-187 ; pulled molecules from frame 154 and got 28-29,93,100-106,176-177,184-187  - success!
+This reaction is a repeat/subset of one we already have!
+Scanning forward, now on frame 479 Whole molecules in frame 455 have atoms 28 ; pulled molecules from frame 489 and got 28,176-177  - expanding the system
+Scanning backward, now on frame 455 Whole molecules in frame 479 have atoms 28,176-177 ; pulled molecules from frame 445 and got 28,176-177  - success!
+Reaction found: formula H2+O -> H2O atoms 28,176-177 frames 445 through 488
+Original and Condensed Segments: [(253, 1510)] [(253, 1510)]
+Original and Condensed Segments: [(367, 1510)] [(367, 1510)]
+Original and Condensed Segments: [(241, 1510)] [(241, 1510)]
+Original and Condensed Segments: [(661, 1510)] [(661, 1510)]
+Original and Condensed Segments: [(301, 482)] [(301, 482)]
+Molecular formula: H atoms: 186 frames: [(301, 482)]
+The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 186
+Scanning backward, now on frame 289 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 186
+Scanning backward, now on frame 279 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 186
+Scanning backward, now on frame 269 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 186
+Scanning backward, now on frame 259 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 186
+Scanning backward, now on frame 249 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 186
+Scanning backward, now on frame 239 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 186
+Scanning backward, now on frame 229 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 186
+Scanning backward, now on frame 219 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 186
+Scanning backward, now on frame 209 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 186
+Scanning backward, now on frame 199 Scanning backward, now on frame 189 Whole molecules in frame 313 have atoms 186 ; pulled molecules from frame 179 and got 186-187  - expanding the system
+Scanning forward, now on frame 313 Whole molecules in frame 289 have atoms 186-187 ; pulled molecules from frame 323 and got 185-187  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = 185,187, input = 185-187
+Scanning backward, now on frame 289 The accumulated atoms are not a superset of the input atoms - accumulated = 185,187, input = 185-187
+Scanning backward, now on frame 279 The accumulated atoms are not a superset of the input atoms - accumulated = 185,187, input = 185-187
+Scanning backward, now on frame 269 The accumulated atoms are not a superset of the input atoms - accumulated = 185,187, input = 185-187
+Scanning backward, now on frame 259 The accumulated atoms are not a superset of the input atoms - accumulated = 185,187, input = 185-187
+Scanning backward, now on frame 249 The accumulated atoms are not a superset of the input atoms - accumulated = 185,187, input = 185-187
+Scanning backward, now on frame 239 The accumulated atoms are not a superset of the input atoms - accumulated = 185,187, input = 185-187
+Scanning backward, now on frame 229 The accumulated atoms are not a superset of the input atoms - accumulated = 185,187, input = 185-187
+Scanning backward, now on frame 219 The accumulated atoms are not a superset of the input atoms - accumulated = 185,187, input = 185-187
+Scanning backward, now on frame 209 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 185-187
+Scanning backward, now on frame 199 The accumulated atoms are not a superset of the input atoms - accumulated = 186-187, input = 185-187
+Scanning backward, now on frame 189 The accumulated atoms are not a superset of the input atoms - accumulated = 186-187, input = 185-187
+Scanning backward, now on frame 179 The accumulated atoms are not a superset of the input atoms - accumulated = 186-187, input = 185-187
+Scanning backward, now on frame 169 Scanning backward, now on frame 159 Whole molecules in frame 313 have atoms 185-187 ; pulled molecules from frame 149 and got 184-187  - expanding the system
+Scanning forward, now on frame 313 Whole molecules in frame 289 have atoms 184-187 ; pulled molecules from frame 323 and got 103,184-187  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = 103,184-185,187, input = 103,184-187
+Scanning backward, now on frame 289 The accumulated atoms are not a superset of the input atoms - accumulated = 103,184-185,187, input = 103,184-187
+Scanning backward, now on frame 279 The accumulated atoms are not a superset of the input atoms - accumulated = 103,184-185,187, input = 103,184-187
+Scanning backward, now on frame 269 The accumulated atoms are not a superset of the input atoms - accumulated = 103,184-185,187, input = 103,184-187
+Scanning backward, now on frame 259 The accumulated atoms are not a superset of the input atoms - accumulated = 103,184-185,187, input = 103,184-187
+Scanning backward, now on frame 249 The accumulated atoms are not a superset of the input atoms - accumulated = 185,187, input = 103,184-187
+Scanning backward, now on frame 239 The accumulated atoms are not a superset of the input atoms - accumulated = 185,187, input = 103,184-187
+Scanning backward, now on frame 229 The accumulated atoms are not a superset of the input atoms - accumulated = 185,187, input = 103,184-187
+Scanning backward, now on frame 219 The accumulated atoms are not a superset of the input atoms - accumulated = 185,187, input = 103,184-187
+Scanning backward, now on frame 209 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 103,184-187
+Scanning backward, now on frame 199 The accumulated atoms are not a superset of the input atoms - accumulated = 186-187, input = 103,184-187
+Scanning backward, now on frame 189 The accumulated atoms are not a superset of the input atoms - accumulated = 186-187, input = 103,184-187
+Scanning backward, now on frame 179 The accumulated atoms are not a superset of the input atoms - accumulated = 100-104,186-187, input = 103,184-187
+Scanning backward, now on frame 169 Scanning backward, now on frame 159 Whole molecules in frame 313 have atoms 103,184-187 ; pulled molecules from frame 149 and got 100-104,184-187  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = 103,184-187, input = 100-104,184-187
+Scanning forward, now on frame 313 The accumulated atoms are not a superset of the input atoms - accumulated = 103,184-187, input = 100-104,184-187
+Scanning forward, now on frame 323 The accumulated atoms are not a superset of the input atoms - accumulated = 103,184-187, input = 100-104,184-187
+Scanning forward, now on frame 333 The accumulated atoms are not a superset of the input atoms - accumulated = 103,184-187, input = 100-104,184-187
+Scanning forward, now on frame 343 The accumulated atoms are not a superset of the input atoms - accumulated = 103,184-187, input = 100-104,184-187
+Scanning forward, now on frame 353 The accumulated atoms are not a superset of the input atoms - accumulated = 103,184-187, input = 100-104,184-187
+Scanning forward, now on frame 363 The accumulated atoms are not a superset of the input atoms - accumulated = 103,184-187, input = 100-104,184-187
+Scanning forward, now on frame 373 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-187, input = 100-104,184-187
+Scanning forward, now on frame 383 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-187, input = 100-104,184-187
+Scanning forward, now on frame 393 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-187, input = 100-104,184-187
+Scanning forward, now on frame 403 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-187, input = 100-104,184-187
+Scanning forward, now on frame 413 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-187, input = 100-104,184-187
+Scanning forward, now on frame 423 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-187, input = 100-104,184-187
+Scanning forward, now on frame 433 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-187, input = 100-104,184-187
+Scanning forward, now on frame 443 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-187, input = 100-104,184-187
+Scanning forward, now on frame 453 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-187, input = 100-104,184-187
+Scanning forward, now on frame 463 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-187, input = 100-104,184-187
+Scanning forward, now on frame 473 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-185,187, input = 100-104,184-187
+Scanning forward, now on frame 483 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-185,187, input = 100-104,184-187
+Scanning forward, now on frame 493 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-185,187, input = 100-104,184-187
+Scanning forward, now on frame 503 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-185,187, input = 100-104,184-187
+Scanning forward, now on frame 513 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-185,187, input = 100-104,184-187
+Scanning forward, now on frame 523 The accumulated atoms are not a superset of the input atoms - accumulated = 103,184-185,187, input = 100-104,184-187
+Scanning forward, now on frame 533 The accumulated atoms are not a superset of the input atoms - accumulated = 103,184-185,187, input = 100-104,184-187
+Scanning forward, now on frame 543 The accumulated atoms are not a superset of the input atoms - accumulated = 103,184-185,187, input = 100-104,184-187
+Scanning forward, now on frame 553 The accumulated atoms are not a superset of the input atoms - accumulated = 103,184-185,187, input = 100-104,184-187
+Scanning forward, now on frame 563 The accumulated atoms are not a superset of the input atoms - accumulated = 103,184-185,187, input = 100-104,184-187
+Scanning forward, now on frame 573 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184-185,187, input = 100-104,184-187
+Scanning forward, now on frame 583 The accumulated atoms are not a superset of the input atoms - accumulated = 29,93,101-104,106,184-187, input = 100-104,184-187
+Scanning forward, now on frame 593 The accumulated atoms are not a superset of the input atoms - accumulated = 29,93,101-104,106,184-187, input = 100-104,184-187
+Scanning forward, now on frame 603 The accumulated atoms are not a superset of the input atoms - accumulated = 29,93,101-104,106,184-187, input = 100-104,184-187
+Scanning forward, now on frame 613 The accumulated atoms are not a superset of the input atoms - accumulated = 29,93,101-104,106,184-187, input = 100-104,184-187
+Scanning forward, now on frame 623 The accumulated atoms are not a superset of the input atoms - accumulated = 29,93,101-104,106,184-187, input = 100-104,184-187
+Scanning forward, now on frame 633 The accumulated atoms are not a superset of the input atoms - accumulated = 29,93,101-104,106,184-187, input = 100-104,184-187
+Scanning forward, now on frame 643 The accumulated atoms are not a superset of the input atoms - accumulated = 29,93,101-104,106,184-187, input = 100-104,184-187
+Scanning forward, now on frame 653 Scanning forward, now on frame 663 Whole molecules in frame 289 have atoms 100-104,184-187 ; pulled molecules from frame 673 and got 29,93,100-106,184-187  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-185,187, input = 29,93,100-106,184-187
+Scanning backward, now on frame 289 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-185,187, input = 29,93,100-106,184-187
+Scanning backward, now on frame 279 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-185,187, input = 29,93,100-106,184-187
+Scanning backward, now on frame 269 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-185,187, input = 29,93,100-106,184-187
+Scanning backward, now on frame 259 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,184-185,187, input = 29,93,100-106,184-187
+Scanning backward, now on frame 249 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106,185,187, input = 29,93,100-106,184-187
+Scanning backward, now on frame 239 The accumulated atoms are not a superset of the input atoms - accumulated = 185,187, input = 29,93,100-106,184-187
+Scanning backward, now on frame 229 The accumulated atoms are not a superset of the input atoms - accumulated = 185,187, input = 29,93,100-106,184-187
+Scanning backward, now on frame 219 The accumulated atoms are not a superset of the input atoms - accumulated = 185,187, input = 29,93,100-106,184-187
+Scanning backward, now on frame 209 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,93,100-106,184-187
+Scanning backward, now on frame 199 The accumulated atoms are not a superset of the input atoms - accumulated = 186-187, input = 29,93,100-106,184-187
+Scanning backward, now on frame 189 The accumulated atoms are not a superset of the input atoms - accumulated = 93,105-106,186-187, input = 29,93,100-106,184-187
+Scanning backward, now on frame 179 The accumulated atoms are not a superset of the input atoms - accumulated = 93,100-106,186-187, input = 29,93,100-106,184-187
+Scanning backward, now on frame 169 Scanning backward, now on frame 159 Whole molecules in frame 313 have atoms 29,93,100-106,184-187 ; pulled molecules from frame 149 and got 28-29,93,100-106,184-187  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 313 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 323 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 333 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 343 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 353 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 363 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 373 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 383 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 393 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 403 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 413 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 423 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 433 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 443 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 453 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 463 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 473 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 483 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 493 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 503 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 513 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 523 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184-185,187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 533 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184-185,187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 543 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184-185,187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 553 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184-185,187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 563 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184-185,187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 573 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 583 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 593 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 603 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 613 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 623 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 633 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 643 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,184-187
+Scanning forward, now on frame 653 Scanning forward, now on frame 663 Whole molecules in frame 289 have atoms 28-29,93,100-106,184-187 ; pulled molecules from frame 673 and got 28-29,93,100-106,176-177,184-187  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 289 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 279 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 269 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 259 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 249 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106,176-177,185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 239 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177,185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 229 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177,185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 219 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177,185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 209 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 199 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177,186-187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 189 The accumulated atoms are not a superset of the input atoms - accumulated = 93,105-106,176-177,186-187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 179 The accumulated atoms are not a superset of the input atoms - accumulated = 93,100-106,176-177,186-187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 169 Scanning backward, now on frame 159 Whole molecules in frame 313 have atoms 28-29,93,100-106,176-177,184-187 ; pulled molecules from frame 149 and got 28-29,93,100-106,176-177,184-187  - success!
+This reaction is a repeat/subset of one we already have!
+The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 186
+Scanning forward, now on frame 494 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 186
+Scanning forward, now on frame 504 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 186
+Scanning forward, now on frame 514 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 186
+Scanning forward, now on frame 524 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 186
+Scanning forward, now on frame 534 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 186
+Scanning forward, now on frame 544 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 186
+Scanning forward, now on frame 554 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 186
+Scanning forward, now on frame 564 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 186
+Scanning forward, now on frame 574 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 186
+Scanning forward, now on frame 584 Scanning forward, now on frame 594 Whole molecules in frame 470 have atoms 186 ; pulled molecules from frame 604 and got 93,106,186  - expanding the system
+Scanning backward, now on frame 470 Whole molecules in frame 494 have atoms 93,106,186 ; pulled molecules from frame 460 and got 70-71,93,106,186  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,106,186
+Scanning forward, now on frame 494 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,106,186
+Scanning forward, now on frame 504 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,106,186
+Scanning forward, now on frame 514 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,106,186
+Scanning forward, now on frame 524 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 70-71,93,106,186
+Scanning forward, now on frame 534 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71, input = 70-71,93,106,186
+Scanning forward, now on frame 544 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71, input = 70-71,93,106,186
+Scanning forward, now on frame 554 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71, input = 70-71,93,106,186
+Scanning forward, now on frame 564 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71, input = 70-71,93,106,186
+Scanning forward, now on frame 574 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71, input = 70-71,93,106,186
+Scanning forward, now on frame 584 Scanning forward, now on frame 594 Whole molecules in frame 470 have atoms 70-71,93,106,186 ; pulled molecules from frame 604 and got 70-71,93,106,186  - success!
+This reaction is a repeat/subset of one we already have!
+Original and Condensed Segments: [(380, 531), (580, 1510)] [(380, 531), (531, 580), (580, 1510)]
+Molecular formula: C2H2 atoms: 29,101-102,104 frames: [(380, 531), (531, 580), (580, 1510)]
+The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 368 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 358 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 348 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 338 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 328 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 318 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 308 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 298 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 288 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 278 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 268 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 258 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 248 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 238 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 228 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 218 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 208 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 198 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 188 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 178 Scanning backward, now on frame 168 Whole molecules in frame 392 have atoms 29,101-102,104 ; pulled molecules from frame 158 and got 28-29,100-104  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,184, input = 28-29,100-104
+Scanning forward, now on frame 392 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,184, input = 28-29,100-104
+Scanning forward, now on frame 402 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,184, input = 28-29,100-104
+Scanning forward, now on frame 412 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,184, input = 28-29,100-104
+Scanning forward, now on frame 422 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,184, input = 28-29,100-104
+Scanning forward, now on frame 432 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,184, input = 28-29,100-104
+Scanning forward, now on frame 442 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,184, input = 28-29,100-104
+Scanning forward, now on frame 452 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,184, input = 28-29,100-104
+Scanning forward, now on frame 462 The accumulated atoms are not a superset of the input atoms - accumulated = 29,101-104,184, input = 28-29,100-104
+Scanning forward, now on frame 472 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 482 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 492 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 502 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 512 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 522 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 532 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 542 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 552 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 562 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 572 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 582 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 592 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 602 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 612 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 622 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 632 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 642 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184, input = 28-29,100-104
+Scanning forward, now on frame 652 Scanning forward, now on frame 662 Whole molecules in frame 368 have atoms 28-29,100-104 ; pulled molecules from frame 672 and got 28-29,100-105,176-177,184  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 368 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 358 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 348 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 338 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 328 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 318 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 308 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 298 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 288 The accumulated atoms are not a superset of the input atoms - accumulated = 103,176-177,184, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 278 The accumulated atoms are not a superset of the input atoms - accumulated = 103,176-177,184, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 268 The accumulated atoms are not a superset of the input atoms - accumulated = 103,176-177,184, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 258 The accumulated atoms are not a superset of the input atoms - accumulated = 103,176-177,184, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 248 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 238 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 228 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 218 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 208 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 198 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 188 The accumulated atoms are not a superset of the input atoms - accumulated = 93,105-106,176-177, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 178 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,100-106,176-177, input = 28-29,100-105,176-177,184
+Scanning backward, now on frame 168 Scanning backward, now on frame 158 Whole molecules in frame 392 have atoms 28-29,100-105,176-177,184 ; pulled molecules from frame 148 and got 28-29,93,100-106,176-177,184-185  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 392 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 402 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 412 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 422 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 432 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 442 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 452 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,70-71,93,101-104,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 462 The accumulated atoms are not a superset of the input atoms - accumulated = 29,70-71,93,101-104,106,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 472 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 482 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 492 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 502 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 512 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 522 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 532 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 542 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 552 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 562 The accumulated atoms are not a superset of the input atoms - accumulated = 28,103,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 572 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,101-104,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 582 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 592 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 602 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 612 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 622 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 632 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 642 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,101-104,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-185
+Scanning forward, now on frame 652 Scanning forward, now on frame 662 Whole molecules in frame 368 have atoms 28-29,93,100-106,176-177,184-185 ; pulled molecules from frame 672 and got 28-29,93,100-106,176-177,184-187  - expanding the system
+The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 368 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 358 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 348 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 338 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 328 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 318 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,176-177,184-187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 308 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 298 The accumulated atoms are not a superset of the input atoms - accumulated = 28,70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 288 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 278 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 268 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 258 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,103,106,176-177,184-185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 248 The accumulated atoms are not a superset of the input atoms - accumulated = 70-71,93,106,176-177,185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 238 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177,185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 228 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177,185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 218 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177,185,187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 208 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 198 The accumulated atoms are not a superset of the input atoms - accumulated = 176-177,186-187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 188 The accumulated atoms are not a superset of the input atoms - accumulated = 93,105-106,176-177,186-187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 178 The accumulated atoms are not a superset of the input atoms - accumulated = 28-29,93,100-106,176-177,186-187, input = 28-29,93,100-106,176-177,184-187
+Scanning backward, now on frame 168 Scanning backward, now on frame 158 Whole molecules in frame 392 have atoms 28-29,93,100-106,176-177,184-187 ; pulled molecules from frame 148 and got 28-29,93,100-106,176-177,184-187  - success!
+This reaction is a repeat/subset of one we already have!
+The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning forward, now on frame 543 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning forward, now on frame 553 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning forward, now on frame 563 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning forward, now on frame 573 Scanning forward, now on frame 583 Whole molecules in frame 519 have atoms 29,101-102,104 ; pulled molecules from frame 593 and got 29,101-102,104  - no reaction took place!
+The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 568 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 558 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 548 The accumulated atoms are not a superset of the input atoms - accumulated = (empty), input = 29,101-102,104
+Scanning backward, now on frame 538 Scanning backward, now on frame 528 Whole molecules in frame 592 have atoms 29,101-102,104 ; pulled molecules from frame 518 and got 29,101-102,104  - no reaction took place!
+Scanning forward, now on frame 1509  - scanned past end of trajectory!
+Original and Condensed Segments: [(473, 1510)] [(473, 1510)]
+Original and Condensed Segments: [(590, 1510)] [(590, 1510)]
+
+Reaction in frames 150 -> 673 overlaps with reaction_000.xyz (100.0% frames)
+Reaction in frames 445 -> 488 overlaps with reaction_001.xyz (100.0% frames)
+Reaction in frames 455 -> 608 overlaps with reaction_002.xyz (100.0% frames)
+
+Reaction product identification finished.  color.dat and bonds.dat generated.  Now run: vmd -e reactions.vmd -args coors.xyz
