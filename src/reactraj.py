@@ -11,7 +11,7 @@ import ast
 from collections import OrderedDict, defaultdict, Counter
 from chemistry import Elements, Radii
 from copy import deepcopy
-from molecule import AtomContact, Molecule, format_xyz_coord, extract_int
+from molecule import AtomContact, BuildLatticeFromLengthsAngles, Molecule, format_xyz_coord, extract_int
 import itertools
 import time
 from pkg_resources import parse_version
@@ -270,7 +270,7 @@ class MyG(nx.Graph):
         with open(fnm,'w') as f: f.writelines([i+'\n' for i in out])
 
 class ReacTraj(Molecule):
-    def __init__(self, xyzin=None, qsin=None, ftype=None, stride=1, enhance=1.4, mindist=1.0, printlvl=0, boring=['all'], disallow=[], learntime=200, padtime=0, extract=False, frames=0, xyzout='out.xyz', metastability=0.999, pcorrectemit=0.6, saverxn=True, neutralize=False):
+    def __init__(self, xyzin=None, qsin=None, ftype=None, stride=1, enhance=1.4, mindist=1.0, printlvl=0, boring=['all'], disallow=[], learntime=200, padtime=0, extract=False, frames=0, xyzout='out.xyz', metastability=0.999, pcorrectemit=0.6, saverxn=True, neutralize=False, pbc=0.0):
         #==========================#
         #   Load in the XYZ file   #
         #==========================#
@@ -278,6 +278,11 @@ class ReacTraj(Molecule):
         if xyzin == None:
             raise Exception('ReacTraj must be initialized with an .xyz file as the first argument')
         super(ReacTraj,self).__init__(xyzin, ftype)
+        if pbc > 0.0:
+            boxes = []
+            for i in range(len(self)):
+                boxes.append(BuildLatticeFromLengthsAngles(pbc, pbc, pbc, 90.0, 90.0, 90.0))
+            self.boxes = boxes
         if qsin != None and os.path.exists(qsin):
             if printlvl >= 0:
                 print "Loading charge and spin populations...",
@@ -361,7 +366,7 @@ class ReacTraj(Molecule):
         if self.printlvl >= 0: print "Building graphs..."
         self.drij = []
         for i in range(0, self.Frames, self.stride):
-            if hasattr(self, 'boxes') and pbc:
+            if pbc > 0.0:
                 self.drij.append(AtomContact(self.xyzs[i],self.AtomIterator,box=np.array([self.boxes[i].a, self.boxes[i].b, self.boxes[i].c])))
             else:
                 self.drij.append(AtomContact(self.xyzs[i],self.AtomIterator))

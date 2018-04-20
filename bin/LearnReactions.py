@@ -44,6 +44,8 @@ add_argument(parser, '-R', dest='saverxn', help='Extract recognized chemical rea
              action='store_true', default=True)
 add_argument(parser, '-f', dest='frames', help='Trajectory length to process (out of total frames in XYZ).  Passing zero specifies all frames.',
              default=0, type=int)
+add_argument(parser, '--pbc', help='Simple periodic boundary support, specify cubic NVT box size in Angstrom.',
+             default=0, type=float)
 add_argument(parser, '-o', dest='xyzout', help='Output coordinate file containing selected frames.  Enter "None" to prevent writing output.',
              default='None', type=str)
 add_argument(parser, '-b', dest='boring', nargs='+', help='Boring molecules to be excluded from learning.  Ignore isomers in the first frame that match the given alphabetically-ordered empirical formula (or type All to ignore all isomers in the first frame.)',
