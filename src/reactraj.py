@@ -255,6 +255,34 @@ class MyG(nx.Graph):
         ''' Get a list of the coordinates. '''
         coors = nx.get_node_attributes(self,'x')
         return np.array([coors[i] for i in self.L()])
+    
+    def make_whole(self, a, b, c):
+        ''' Make the molecule whole in a rectilinear box '''
+        # x = nx.get_node_attributes(self,'x')
+        # print(x)
+        x = self.x().copy()
+        x0 = x[0]
+        dx = x - x0
+        # Apply the minimum image convention 
+        x[:,0] += a * (dx[:,0] < -a/2)
+        x[:,0] -= a * (dx[:,0] >  a/2)
+        x[:,1] += b * (dx[:,1] < -b/2)
+        x[:,1] -= b * (dx[:,1] >  b/2)
+        x[:,2] += c * (dx[:,2] < -c/2)
+        x[:,2] -= c * (dx[:,2] >  c/2)
+        xm = np.mean(x, axis=0)
+        if xm[0] > a: x[:,0] -= a
+        elif xm[0] < 0: x[:,0] += a
+        if xm[1] > b: x[:,1] -= b
+        elif xm[1] < 0: x[:,1] += b
+        if xm[2] > c: x[:,2] -= c
+        elif xm[2] < 0: x[:,2] += c
+        xdict = dict([(i, xi) for i, xi in zip(self.L(), x)])
+        if parse_version(nx.__version__) >= parse_version('2.0'):
+            nx.set_node_attributes(self, xdict, 'x')
+        else:
+            nx.set_node_attributes(self, 'x', xdict)
+        
     def writexyz(self, fnm, center=False):
         ''' Return a list of strings corresponding to an XYZ file. '''
         out = []
@@ -372,7 +400,7 @@ class ReacTraj(Molecule):
                 self.drij.append(AtomContact(self.xyzs[i],self.AtomIterator))
             # self.drij = contact.atom_distances(np.array([self.xyzs[i]]),self.AtomIterator)
             if self.printlvl >= 0: print "\rFrame %-7i:" % i,
-            self.AddFrame(i)
+            self.AddFrame(i, pbc)
         if self.printlvl >= 0: print
         if self.printlvl >= 0: print "Done building graphs."
         # Determine whether the Output method creates a new xyz file.
@@ -386,7 +414,7 @@ class ReacTraj(Molecule):
         # Create a mapping from isomer number to VMD color.
         self.ColorIdx = self.Analyze()
 
-    def AddFrame(self, frame):
+    def AddFrame(self, frame, pbc=0.0):
         RawG = self.MakeGraphFromXYZ(frame)
         MolGphs = [RawG.subgraph(c).copy() for c in nx.connected_components(RawG)]
         # MolGphs = nx.connected_component_subgraphs(RawG)
@@ -398,6 +426,11 @@ class ReacTraj(Molecule):
         for G in MolGphs:
             G.__class__ = MyG
             G.Alive = True
+            if pbc > 0.0:
+                # Make molecules whole at this stage
+                G.make_whole(pbc, pbc, pbc)
+                for i, xi in zip(G.L(), G.x()):
+                    self.xyzs[frame][i] = xi
             NumMols += 1
             # iidx means Isomer Index.
             try:
@@ -632,9 +665,9 @@ class ReacTraj(Molecule):
             if frame < 0 or frame >= self.Frames:
                 return None, None, None, None
 
-    def WriteChargeSpinLabels(self):
+    def WriteChargeSpinLabels(self, selection):
         Threshold = 0.1
-        ChargeLabels = [[] for i in range(len(self))]
+        ChargeLabels = [[] for i in selection]
         #print self.Recorded
         RecSeries = {}
         for gid,ts in self.TimeSeries.items(): # Loop over graph IDs and time series
@@ -644,7 +677,7 @@ class ReacTraj(Molecule):
         for gid,ts in RecSeries.items():
             idx = np.array(ts['graph'].L())
             decoded = decode(ts['signal'])
-            for i in range(len(self)):
+            for i in selection:
                 if decoded[i]:
                     ChgArr = np.array(self.Charges[i][idx])
                     SumChg = sum(ChgArr)
@@ -667,7 +700,7 @@ class ReacTraj(Molecule):
 
         Threshold = 0.25
         sout = open('spin.dat','w')
-        for i in range(len(self)):
+        for i in selection:
             for a in range(self.na):
                 if abs(self.Spins[i][a]) >= Threshold:
                     print >> sout, "%i %+.2f" % (a, self.Spins[i][a]),
@@ -1115,6 +1148,7 @@ class ReacTraj(Molecule):
                     # LPW: All of the repeated reaction.xyz files are getting annoying!
                     if InstSrl < 10:
                         if self.printlvl >= 0: print "\x1b[1;92mSaving\x1b[0m frames %i -> %i to %s" % (Firsts[RxnNum][Inst], Lasts[RxnNum][Inst], outfnm)
+                        Slices[RxnNum][Inst].center()
                         Slices[RxnNum][Inst].write(outfnm)
                     elif self.printlvl >= 0: print "\x1b[1;93mNot Saving\x1b[0m frames %i -> %i (instance %i)" % (Firsts[RxnNum][Inst], Lasts[RxnNum][Inst], InstSrl)
                     InstSrl += 1
@@ -1237,9 +1271,9 @@ mol modstyle %i 0 VDW 0.150000 27.000000
                     self.fout = user_input.strip()
             print "Writing", self.fout
             try:
-                self.write(self.fout, select=range(0,self.Frames,self.stride))
+                self.write(self.fout, selection=range(0,self.Frames,self.stride))
             except:
                 print "File write failed, check what you typed in."
                 self.fout = self.fnm
-        self.WriteChargeSpinLabels()
+        self.WriteChargeSpinLabels(range(0,self.Frames,self.stride))
 
