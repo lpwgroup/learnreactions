@@ -310,10 +310,10 @@ class ReacTraj(Molecule):
         self.Render = False
         # Boring molecules to be excluded from coloring (by empirical formula)
         # Note: Isomers formed later are still considered interesting.  This is a hack.
-        self.BoringFormulas = boring[:] #[i.upper() for i in boring]
-        self.BoringIsomers = []
+        self.BoringFormulas = set(boring)
+        self.BoringIsomerIdxs = set()
         # Disallow certain molecules from being in the TimeSeries.
-        self.DisallowedFormulas = disallow
+        self.DisallowedFormulas = set(disallow)
         if printlvl >= 1: print self.DisallowedFormulas, "is disallowed"
         # The print level (control the amount of printout)
         self.printlvl = printlvl
@@ -413,10 +413,8 @@ class ReacTraj(Molecule):
                 self.Isomers.append(G)
                 self.isomer_ef_iidx_dict[ef].append(iidx)
                 self.IsoLocks.append(False)
-            # if frame == 0 and (G.ef() in self.BoringFormulas or 'ALL' in self.BoringFormulas) and G not in self.BoringIsomers:
-            if (ef in self.BoringFormulas or wildmatch(ef, self.BoringFormulas)
-                or (frame == 0 and 'ALL' in [i.upper() for i in self.BoringFormulas])) and G not in self.BoringIsomers:
-                self.BoringIsomers.append(G)
+            if (ef in self.BoringFormulas or wildmatch(ef, self.BoringFormulas) or (frame == 0 and 'ALL' in [i.upper() for i in self.BoringFormulas])):
+                self.BoringIsomerIdxs.add(iidx)
             # if G not in self.Isomers:
             gid = G.AStr()+":%i" % iidx
             nowgids.append(gid)
@@ -556,7 +554,7 @@ class ReacTraj(Molecule):
             #I = ValidIso[i]
             if self.printlvl >= 1 and MaxLife[i] > 0: print "Isomer %3i %10s : Max Life %i" % (i, "("+I.ef()+")", MaxLife[i]),
             # if I.ef() in self.BoringFormulas:
-            if I in self.BoringIsomers:
+            if i in self.BoringIsomerIdxs:
                 self.Recorded.add(i)
                 ColorIdx[i] = 8
                 if self.printlvl >= 1 and MaxLife[i] > 0: print "(Boring!)"
@@ -806,11 +804,12 @@ class ReacTraj(Molecule):
         BufferTime = 0
         PadTime = self.PadTime
         for gid, ts in self.TimeSeries.items():
-            I = self.Isomers[ts['iidx']]
+            iidx = ts['iidx']
+            I = self.Isomers[iidx]
             S = segments(FillGaps(ts['signal'],self.LearnTime))
             if self.printlvl >= 1: print "Original and Condensed Segments:", segments(ts['signal']), S
             aidx = ts['graph'].L()
-            if I not in self.BoringIsomers and len(S) > 0:
+            if iidx not in self.BoringIsomerIdxs and len(S) > 0:
                 if self.printlvl >= 1: print "Molecular formula:", I.ef(), "atoms:", commadash(aidx), "frames:", S
                 for s in S:
                     if (s[1]-s[0]) > self.LearnTime:
