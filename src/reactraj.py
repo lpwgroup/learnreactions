@@ -18,17 +18,17 @@ from pkg_resources import parse_version
 try:
     from sklearn.hmm import MultinomialHMM
     have_sklearn = 1
-except: 
+except:
     print "Cannot import Hidden Markov Models: load Intel compiler environment or consider pip install scikit-learn"
     have_sklearn = 0
 
 ## Names of colors from VMD
-ColorNames = ["blue", "red", "gray", "orange", "yellow", 
-              "tan", "silver", "green", "white", "pink", 
+ColorNames = ["blue", "red", "gray", "orange", "yellow",
+              "tan", "silver", "green", "white", "pink",
               "cyan", "purple", "lime", "mauve", "ochre",
               "iceblue", "black", "yellow2", "yellow3", "green2",
-              "green3", "cyan2", "cyan3", "blue2", "blue3", 
-              "violet", "violet2", "magenta", "magenta2", "red2", 
+              "green3", "cyan2", "cyan3", "blue2", "blue3",
+              "violet", "violet2", "magenta", "magenta2", "red2",
               "red3", "orange2", "orange3"]
 
 def wildmatch(fmatch, formulas):
@@ -51,9 +51,9 @@ def nodematch(node1,node2):
     # Matching two nodes of a graph.  Nodes are equivalent if the elements are the same
     return node1['e'] == node2['e']
 
-def encode(l): 	
-    """ 
-    Run length encoding of a time series. 
+def encode(l):
+    """
+    Run length encoding of a time series.
 
     Turns [0, 0, 1, 1, 1, 0, 0, 0, 0] into: [(2, 0), (3, 1), (4, 0)]
     """
@@ -73,7 +73,7 @@ def decode(e):
     list
         Decoded time series.
     """
-    return sum([length * [item] for length,item in e],[]) 
+    return sum([length * [item] for length,item in e],[])
 
 def element(e, elem):
     begin = 0
@@ -138,7 +138,7 @@ def exists_at_time(e, t):
             return x
         t0 = t1
     return x
-        
+
 def Rectify(signal, metastability, pcorrectemission):
     """
     Rectify a time series of true / false variables using Hidden Markov Model.
@@ -153,7 +153,7 @@ def Rectify(signal, metastability, pcorrectemission):
     if metastability <= 0 or pcorrectemission <= 0:
         return None
     signal_ = np.array(decode(signal))
-    # Inputs: 
+    # Inputs:
     # Signal: A time series of true / false variables.
     # mestability: Probability that the underlying signal continues to be True(False) if the current value is True(False)
     # In principle possible to have two different values, but in practice we just use one.
@@ -222,7 +222,7 @@ def make_monotonic(xyz, others=[]):
     for lst in others:
         new_others.append(np.array(lst)[np.array(selct)])
     return new_others
-            
+
 class MyG(nx.Graph):
     def __init__(self):
         super(MyG,self).__init__()
@@ -343,6 +343,8 @@ class ReacTraj(Molecule):
         self.TimeSeries = OrderedDict()
         # List of unique isomers.
         self.Isomers = []
+        # Dictionary that aggregate isomers
+        self.isomer_ef_iidx_dict = defaultdict(list)
         # Set of isomers that are RECORDED.
         self.Recorded = set()
         # A time-series of atom-wise isomer labels.
@@ -399,22 +401,27 @@ class ReacTraj(Molecule):
             G.__class__ = MyG
             G.Alive = True
             NumMols += 1
+            ef = G.ef()
             # iidx means Isomer Index.
-            try:
-                iidx = self.Isomers.index(G)
-            except:
+            # compare to the Graph that has the same Empirical Formula
+            for i in self.isomer_ef_iidx_dict[ef]:
+                if self.Isomers[i] == G:
+                    iidx = i
+                    break
+            else:
                 iidx = len(self.Isomers)
                 self.Isomers.append(G)
+                self.isomer_ef_iidx_dict[ef].append(iidx)
                 self.IsoLocks.append(False)
             # if frame == 0 and (G.ef() in self.BoringFormulas or 'ALL' in self.BoringFormulas) and G not in self.BoringIsomers:
-            if (G.ef() in self.BoringFormulas or wildmatch(G.ef(), self.BoringFormulas) 
+            if (ef in self.BoringFormulas or wildmatch(ef, self.BoringFormulas)
                 or (frame == 0 and 'ALL' in [i.upper() for i in self.BoringFormulas])) and G not in self.BoringIsomers:
                 self.BoringIsomers.append(G)
             # if G not in self.Isomers:
             gid = G.AStr()+":%i" % iidx
             nowgids.append(gid)
-            efs.append(G.ef())
-            if gid not in self.TimeSeries and G.ef() not in self.DisallowedFormulas:
+            efs.append(ef)
+            if gid not in self.TimeSeries and ef not in self.DisallowedFormulas:
                 self.TimeSeries[gid] = {'graph':G,'iidx':iidx,'raw_signal':encode([0 for i in range(frame)]),'lock':False}
             for j in G.nodes():
                 ilabels[j] = iidx
@@ -453,8 +460,8 @@ class ReacTraj(Molecule):
             if not self.TimeSeries[gid]['lock']:
                 # LPW note on Sep 24: I think it's unfair to require a
                 # continuous live-time before locking the graph ID.
-                # We could look at the total live-time instead. However, 
-                # this changes the results for the e-cigarette test case, 
+                # We could look at the total live-time instead. However,
+                # this changes the results for the e-cigarette test case,
                 # so for now we leave the code the same.
                 # if sum([i[0] for i in self.TimeSeries[gid]['raw_signal'] if i[1]]) == self.LearnTime:
                 if self.TimeSeries[gid]['raw_signal'][-1] == [self.LearnTime,True]:
@@ -577,7 +584,7 @@ class ReacTraj(Molecule):
                     Slice.align_center()
                     Slice.write("extract_%03i.xyz" % CoolNum)
                     self.CoolGraphs.append(I)
-                    if self.printlvl >= 0: print " - saving to extract_%03i.xyz" % CoolNum, 
+                    if self.printlvl >= 0: print " - saving to extract_%03i.xyz" % CoolNum,
                 #self.xyzs[BornTimes[i] + i/2]
                 if self.printlvl >= 0: print
                 CoolNum += 1
@@ -597,7 +604,7 @@ class ReacTraj(Molecule):
                 for gid,ts in self.TimeSeries.items():
                     if ts['iidx'] not in self.Recorded: continue
                     if element(ts['signal'], frame) and any([i in ts['graph'].L() for i in atoms]):
-                        # if element(ts['signal'], frame) != element(ts['raw_signal'], frame): 
+                        # if element(ts['signal'], frame) != element(ts['raw_signal'], frame):
                         #     if self.printlvl >= 2:
                         #         print "The filtered signal doesn't match the raw signal in this frame"
                         #     break
@@ -640,7 +647,7 @@ class ReacTraj(Molecule):
         for gid,ts in self.TimeSeries.items(): # Loop over graph IDs and time series
             if ts['iidx'] in self.Recorded:
                 RecSeries[gid] = ts
-                
+
         for gid,ts in RecSeries.items():
             idx = np.array(ts['graph'].L())
             decoded = decode(ts['signal'])
@@ -678,14 +685,14 @@ class ReacTraj(Molecule):
         """
         Given a list of atoms and a time series, find another list of atoms corresponding to:
         1) complete molecules that exist throughout the entire time series
-        2) is the closest to the original set of atoms by some measure 
+        2) is the closest to the original set of atoms by some measure
            (we'll use the maximum value of the closest contact time series)
         3) neutralizes the overall system
 
         Parameters
         ----------
         atoms : list
-            List of atoms 
+            List of atoms
         framesel : list
             List of frames
 
@@ -709,7 +716,7 @@ class ReacTraj(Molecule):
         for gid, ts in self.TimeSeries.items():
             # Check to make sure that this molecule exists for ALL frames in the frame selection
             # and does not overlap with ANY atoms in our atom selection.
-            if (exists_at_time(ts['signal'], framesel[0]) and 
+            if (exists_at_time(ts['signal'], framesel[0]) and
                 exists_at_time(ts['signal'], framesel[-1]) and
                 len(set(ts['graph'].L()).intersection(set(atoms))) == 0 and
                 list(set(decode(ts['signal'])[framesel[0]:framesel[-1]])) == [1]):
@@ -756,7 +763,7 @@ class ReacTraj(Molecule):
             # The number of electrons should be odd iff the spin is odd.
             if ((nelectron-spn)/2)*2 != (nelectron-spn):
                 if self.printlvl >= 1: print "Charge and spin \x1b[91mnot consistent\x1b[0m (charge %+.3f -> %+.3f) ; added atoms %s" % (SelChg, NewSelChg, commadash(counter_atoms))
-            elif int(round(NewSelChg)) == 0: 
+            elif int(round(NewSelChg)) == 0:
                 if self.printlvl >= 1: print "Successfully \x1b[92mneutralized\x1b[0m the reaction (charge %+.3f -> %+.3f) ; added atoms %s" % (SelChg, NewSelChg, commadash(counter_atoms))
                 added_sets.append(counter_atoms[:])
                 added_isos.append([int(i.split(':')[1]) for i in counter_gids])
@@ -780,7 +787,7 @@ class ReacTraj(Molecule):
         # This piece of code first pulls up our recognized reaction product trajectory segments.
         # It scans forward / backward past the ends of the segment in search of a chemical reaction.
         # By scanning past the ends of the segment, we look at all of the molecules that the atoms have evolved into.
-        # The new molecules' atom IDs are all stored.  If the topology (denoted by gids) has changed 
+        # The new molecules' atom IDs are all stored.  If the topology (denoted by gids) has changed
         # but the atom IDs have stayed the same, then an isomerization has taken place and the trajectory is stored.
         # If the atom IDs have expanded, it means that more atoms are involved in the chemical reaction,
         # and an attempt is made to incorporate them into a contiguous chemical reaction.
@@ -838,10 +845,10 @@ class ReacTraj(Molecule):
                                     if self.printlvl >= 1: print " - no reaction took place!"
                                     Reacted = False
                                     break
-                                if Reactant_Atoms == New_Reactants : 
+                                if Reactant_Atoms == New_Reactants :
                                     if self.printlvl >= 1: print " - success!"
                                     break
-                                else: 
+                                else:
                                     if self.printlvl >= 1: print " - expanding the system"
                                     Reactant_Atoms = New_Reactants[:]
                                     iso0 = iso1[:]
@@ -866,7 +873,7 @@ class ReacTraj(Molecule):
                                     iso1.remove(self.TimeSeries[spec]['iidx'])
                                     gid0.remove(spec)
                                     gid1.remove(spec)
-                                if len(Reactant_Atoms) == 0: 
+                                if len(Reactant_Atoms) == 0:
                                     if self.printlvl >= 1: print "There are no atoms left!"
                                     break
                                 for Rnum, Rxn in enumerate(RxnList):
@@ -937,7 +944,7 @@ class ReacTraj(Molecule):
                                         SliceIndices[Annotate].append(Reactant_Atoms)
                                         SliceFrames[Annotate].append(FrameSel)
                                     if self.printlvl >= 0: print "\rReaction found: formula %s atoms %s frames %i through %i" % (evector, commadash(Reactant_Atoms), FrameSel[0], FrameSel[-1])
-                                    
+
                         if After > End:
                             #if self.printlvl >= 1: print "Looking forward to frame %i," % After,
                             Reactant_Atoms = aidx
@@ -965,10 +972,10 @@ class ReacTraj(Molecule):
                                     if self.printlvl >= 1: print " - no reaction took place!"
                                     Reacted = False
                                     break
-                                if Reactant_Atoms == New_Reactants : 
+                                if Reactant_Atoms == New_Reactants :
                                     if self.printlvl >= 1: print " - success!"
                                     break
-                                else: 
+                                else:
                                     if self.printlvl >= 1: print " - expanding the system"
                                     Reactant_Atoms = New_Reactants[:]
                                     iso0 = iso1[:]
@@ -993,7 +1000,7 @@ class ReacTraj(Molecule):
                                     iso1.remove(self.TimeSeries[spec]['iidx'])
                                     gid0.remove(spec)
                                     gid1.remove(spec)
-                                if len(Reactant_Atoms) == 0: 
+                                if len(Reactant_Atoms) == 0:
                                     if self.printlvl >= 1: print "There are no atoms left!"
                                     break
                                 for Rnum, Rxn in enumerate(RxnList):
@@ -1097,7 +1104,7 @@ class ReacTraj(Molecule):
                     if self.printlvl >= 0: print "Reaction in frames %i -> %i overlaps with %s (%.1f%% frames)" % (Firsts[rxnnum][inst], Lasts[rxnnum][inst], rxn0, 100*overlap)
                     return srl0, maxinst, rxn0
             return -1, -1, None
-                
+
         for RxnNum in np.argsort(np.array([min(i) for i in Firsts])): # Reactions sorted by the first frame of occurrence
             InstSrl = 0                                               # Instance number of the reaction for writing to disk
             RxnSrl_ = RxnSrl                                          # The temporary reaction serial number (will be replaced if reaction exists on disk)
@@ -1172,7 +1179,7 @@ mol modstyle %i 0 DynamicBonds 1.100000 0.050000 21.000000
 mol addrep 0
 mol modstyle %i 0 VDW 0.150000 27.000000
 """ % (self.na, self.na, self.na + 1, self.na + 1, self.na + 2)
-        
+
         print >> self.moviefile, extra
         renderf = 0
         for f in range(0, self.Frames, self.stride):
@@ -1194,7 +1201,7 @@ mol modstyle %i 0 VDW 0.150000 27.000000
             if self.Render:
                 print >> self.moviefile, "render snapshot frame%04i.tga" % renderf
             renderf += 1
-        
+
     def MakeGraphFromXYZ(self, sn, window=10):
         G = MyG()
         bonds = [[] for i in range(self.na)]
